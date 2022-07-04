@@ -1,0 +1,744 @@
+{
+  "sections": {
+    "hero-video": {
+      "type": "hero-video",
+      "disabled": true,
+      "settings": {
+        "title": "Bring your\nbrand to life.",
+        "title_size": 80,
+        "subheading": "",
+        "link_text": "Watch",
+        "link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "overlay_opacity": 0,
+        "section_height": "650px",
+        "mobile_height": "auto"
+      }
+    },
+    "16551900077c7adf18": {
+      "type": "slideshow",
+      "blocks": {
+        "1655190007d1b886a6-0": {
+          "type": "image",
+          "settings": {
+            "title": "COOKING LIKE A PRO",
+            "title_size": 30,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "text_align": "vertical-center horizontal-center",
+            "title_bg_color": "#000000",
+            "title_bg_opacity": 0.5,
+            "image": "shopify:\/\/shop_images\/GENESI-HOME-PAGE-NO-MANIGLIA.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "1655190007d1b886a6-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "title": "Aspire Range in Dark Stainless Steel",
+            "title_size": 30,
+            "subheading": "Our new Aspire range will help make daily life a little easier, offering innovations for home cooks. Central to this is the dark stainless steel trend, which combines the premium and practical Westinghouse kitchen in a fresh new finish.",
+            "link": "",
+            "link_text": "Optional button",
+            "text_align": "vertical-center horizontal-left",
+            "title_bg_color": "#000000",
+            "title_bg_opacity": 0.5,
+            "image": "shopify:\/\/shop_images\/slide-3.png",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "d61b6cc5-651c-401f-bb00-4f853338fc7d": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "title": "Aspire Range in Dark Stainless Steel",
+            "title_size": 30,
+            "subheading": "Our new Aspire range will help make daily life a little easier, offering innovations for home cooks. Central to this is the dark stainless steel trend, which combines the premium and practical Westinghouse kitchen in a fresh new finish.",
+            "link": "",
+            "link_text": "Optional button",
+            "text_align": "vertical-center horizontal-left",
+            "title_bg_color": "#000000",
+            "title_bg_opacity": 0.5,
+            "image": "shopify:\/\/shop_images\/slide-1.png",
+            "overlay_opacity": 24,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "1655190007d1b886a6-0",
+        "1655190007d1b886a6-1",
+        "d61b6cc5-651c-401f-bb00-4f853338fc7d"
+      ],
+      "settings": {
+        "section_height": "100vh",
+        "mobile_height": "400px",
+        "parallax": false,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
+    "1654683750035958ea": {
+      "type": "custom-content",
+      "blocks": {
+        "16546837492ef6dabe-0": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "BgColor": "#ffffff",
+            "text_padding_top": 40,
+            "text_padding_bottom": 40,
+            "title": "Rangehood Filters – Cook and live in comfort",
+            "subheading": "",
+            "text": "<p>For optimum rangehood performance, your filters should be<a href=\"https:\/\/www.westinghouse.com.au\/link\/9b0264c8a0fd416dbfab2e9094c254fb.aspx\">cleaned and replaced<\/a>regularly. Learn more about rangehood filter maintenance and which filters suit your rangehood.<\/p>",
+            "width": "50%",
+            "inner_width": 650,
+            "alignment": "center",
+            "horizontal_alignment": "start",
+            "align_text": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "Shop now",
+            "button_link": "#",
+            "button_style": "sf__btn-primary",
+            "button_color": "sf__btn-black",
+            "mobile_order": "2",
+            "block_custom_class": ""
+          }
+        },
+        "16546837492ef6dabe-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bannrt.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "mobile_order": "1",
+            "block_custom_class": ""
+          }
+        },
+        "cb69cebe-9517-4af3-a827-9548b2f2e208": {
+          "type": "image_card",
+          "settings": {
+            "width": "50%",
+            "content_position": "center_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "white",
+            "image": "shopify:\/\/shop_images\/genesi-120-inox-1.png",
+            "link": "shopify:\/\/collections\/genesi",
+            "title": "GENESI",
+            "subtitle": "",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "mobile_order": "",
+            "block_custom_class": ""
+          }
+        },
+        "fbd7b60f-704e-4c7f-8304-c2f9c3c02745": {
+          "type": "image_card",
+          "settings": {
+            "width": "50%",
+            "content_position": "center_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "white",
+            "image": "shopify:\/\/shop_images\/ascot-1.jpg",
+            "link": "shopify:\/\/collections\/ascot",
+            "title": "ASCOT",
+            "subtitle": "",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "mobile_order": "",
+            "block_custom_class": ""
+          }
+        },
+        "ceb177d6-06bf-49ea-85fa-3e10d7f4a383": {
+          "type": "image_card",
+          "settings": {
+            "width": "50%",
+            "content_position": "center_center",
+            "content_alignment": "center",
+            "text_size": "medium",
+            "text_color": "white",
+            "image": "shopify:\/\/shop_images\/enfasi-2.jpg",
+            "link": "shopify:\/\/collections\/enfasi",
+            "title": "ENFASI",
+            "subtitle": "",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "mobile_order": "",
+            "block_custom_class": ""
+          }
+        },
+        "0a99770e-12c4-4add-bccf-dff8a6bcbb8d": {
+          "type": "image_card",
+          "settings": {
+            "width": "50%",
+            "content_position": "center_center",
+            "content_alignment": "left",
+            "text_size": "medium",
+            "text_color": "white",
+            "image": "shopify:\/\/shop_images\/oxford-1-1.jpg",
+            "link": "shopify:\/\/collections\/oxford",
+            "title": "OXFORD",
+            "subtitle": "",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "mobile_order": "",
+            "block_custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "16546837492ef6dabe-0",
+        "16546837492ef6dabe-1",
+        "cb69cebe-9517-4af3-a827-9548b2f2e208",
+        "fbd7b60f-704e-4c7f-8304-c2f9c3c02745",
+        "ceb177d6-06bf-49ea-85fa-3e10d7f4a383",
+        "0a99770e-12c4-4add-bccf-dff8a6bcbb8d"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "w-full",
+        "background_color": "",
+        "gap": 0,
+        "use_scroll_mobile": false,
+        "gap_mobile": 0,
+        "custom_class": ""
+      }
+    },
+    "1654761768a16f204c": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Featured Products",
+        "description": "<p>We aren’t about fancy features, just beautiful designs that work, created with the freshest produce in mind. Discover our latest products.<\/p>",
+        "home_featured_products": "ex-display-factory-seconds",
+        "per_row": 4,
+        "rows": 1,
+        "view_all": false,
+        "divider": false,
+        "enable_add_to_cart": false,
+        "enable_price": false
+      }
+    },
+    "rich-text": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "title": "Rich text"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "165476188084e7069d": {
+      "type": "image-with-text-1",
+      "disabled": true,
+      "blocks": {
+        "1654761880d4cfdf34-0": {
+          "type": "item",
+          "settings": {
+            "enable_background": true,
+            "content_bg": "#ffffff",
+            "content_position": "center_center",
+            "content_alignment": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify:\/\/shop_images\/whi945bc_flexzone_gall_4-700x568.jpg",
+            "link": "#",
+            "title": "4 Tips to Help You Save Money on Groceries",
+            "subtitle": "",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": ""
+          }
+        },
+        "1654761880d4cfdf34-1": {
+          "type": "item",
+          "settings": {
+            "enable_background": true,
+            "content_bg": "#ffffff",
+            "content_position": "bottom_left",
+            "content_alignment": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify:\/\/shop_images\/whi945bc_flexzone_gall_4-700x568.jpg",
+            "link": "#",
+            "title": "",
+            "subtitle": "The Do’s and Don’ts of cooking on a Westinghouse cooktop",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": ""
+          }
+        },
+        "1654761880d4cfdf34-2": {
+          "type": "item",
+          "settings": {
+            "enable_background": true,
+            "content_bg": "#ffffff",
+            "content_position": "bottom_left",
+            "content_alignment": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify:\/\/shop_images\/whi945bc_flexzone_gall_4-700x568.jpg",
+            "link": "#",
+            "title": "",
+            "subtitle": "The Do’s and Don’ts of cooking on a Westinghouse cooktop",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": ""
+          }
+        },
+        "1654761880d4cfdf34-3": {
+          "type": "item",
+          "settings": {
+            "enable_background": true,
+            "content_bg": "#ffffff",
+            "content_position": "bottom_left",
+            "content_alignment": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify:\/\/shop_images\/whi945bc_flexzone_gall_4-700x568.jpg",
+            "link": "#",
+            "title": "",
+            "subtitle": "The Do’s and Don’ts of cooking on a Westinghouse cooktop",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": "sf__btn-small"
+          }
+        },
+        "1654761880d4cfdf34-4": {
+          "type": "item",
+          "settings": {
+            "enable_background": true,
+            "content_bg": "#ffffff",
+            "content_position": "bottom_left",
+            "content_alignment": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify:\/\/shop_images\/whi945bc_flexzone_gall_4-700x568.jpg",
+            "link": "#",
+            "title": "",
+            "subtitle": "The Do’s and Don’ts of cooking on a Westinghouse cooktop",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "1654761880d4cfdf34-0",
+        "1654761880d4cfdf34-1",
+        "1654761880d4cfdf34-2",
+        "1654761880d4cfdf34-3",
+        "1654761880d4cfdf34-4"
+      ],
+      "settings": {
+        "heading": "Featured collection",
+        "subheading": "",
+        "description": "The Un-Glossy, a celebration of real family life because we know it isn’t always picture perfect. The messy kitchens, temper tantrums, happy tears, belly and the purest love you can find.",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "#f4f4f4",
+        "layout": "layout_1",
+        "gap": 10,
+        "use_scroll_mobile": true,
+        "mobile_gap": 10,
+        "custom_class": ""
+      }
+    },
+    "featured-collections": {
+      "type": "featured-collections",
+      "disabled": true,
+      "blocks": {
+        "1499789718857-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "focal_point": "center center",
+            "size": "wide"
+          }
+        },
+        "1499789718857-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "focal_point": "center center",
+            "size": "square-small"
+          }
+        },
+        "1499789718857-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "focal_point": "center center",
+            "size": "square-small"
+          }
+        },
+        "1499789718857-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "focal_point": "center center",
+            "size": "square-small"
+          }
+        },
+        "1499789718857-4": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "focal_point": "center center",
+            "size": "square-small"
+          }
+        },
+        "1499789718857-5": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "focal_point": "center center",
+            "size": "wide"
+          }
+        }
+      },
+      "block_order": [
+        "1499789718857-0",
+        "1499789718857-1",
+        "1499789718857-2",
+        "1499789718857-3",
+        "1499789718857-4",
+        "1499789718857-5"
+      ],
+      "settings": {
+        "title": "",
+        "divider": false,
+        "enable_gutter": false
+      }
+    },
+    "collection-callout": {
+      "type": "collection-callout",
+      "disabled": true,
+      "settings": {
+        "collection": "pizza-ovens",
+        "subtitle": "Brand new",
+        "title": "Collection callout",
+        "text": "Use this section to easily call attention to one of your collections. We'll show photos of the first 5 products.",
+        "cta_text1": "Shop Jackets",
+        "cta_link1": "shopify:\/\/collections\/pizza-ovens",
+        "cta_text2": "Shop All",
+        "cta_link2": "",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "background-image-text": {
+      "type": "background-image-text",
+      "disabled": true,
+      "settings": {
+        "subtitle": "Impressive",
+        "title": "Large image and text",
+        "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "focal_point": "center",
+        "layout": "left",
+        "height": 650,
+        "parallax": true
+      }
+    },
+    "1654751868db37ecde": {
+      "type": "logo-list",
+      "disabled": true,
+      "blocks": {
+        "16547518689ea5ef2b-0": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/eandstrading_93cec174-aec1-43dd-95dd-b62aa60aabc2.png",
+            "link": ""
+          }
+        },
+        "16547518689ea5ef2b-1": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Harvey-Norman_1d46e24a-57d0-40e9-a287-5ab854873def.png",
+            "link": ""
+          }
+        },
+        "16547518689ea5ef2b-2": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/elite-appliances_a264f082-74a9-45b2-b0df-e366c8d20168.png",
+            "link": ""
+          }
+        },
+        "16547518689ea5ef2b-3": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Berloni-Appliances_cfca1f10-5f2b-47b8-8416-fe1194943a8e.png",
+            "link": ""
+          }
+        },
+        "8f84dec8-60c8-4938-abf7-fd8d7e40576a": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LM-Goldstar_5075d2d8-d615-4f3a-a586-dd6e48ace34f.png",
+            "link": ""
+          }
+        },
+        "bd49e0ff-0876-43bc-a5f1-3aa3cd6b363f": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/newtons_cc6c0c93-2cc4-48a9-82c3-28ffbcecccc8.png",
+            "link": ""
+          }
+        },
+        "f3b6500f-e16a-478f-8ceb-5037cbe84ba4": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Prestige-Appliances-Chatswood_8e923b79-fda4-4101-987c-9dae684ec005.png",
+            "link": ""
+          }
+        },
+        "bf4db46e-5b9a-4b3c-867d-a8df293689e9": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/statusplus_cf19f847-55e7-4df0-acd5-6ca61dfff50f.png",
+            "link": ""
+          }
+        },
+        "6a5deb49-e0d0-439d-82d8-24adf9a3bd48": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Whitfords.png",
+            "link": ""
+          }
+        },
+        "2f58aaca-fa76-4689-9ee8-be7e85a737a6": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Winning-Appliances.png",
+            "link": ""
+          }
+        },
+        "9be28fa2-aad9-42a3-9411-355bc092f69d": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8appliances-steel_f161a4ec-998e-4851-a83c-3f019f410c32.jpg",
+            "link": ""
+          }
+        },
+        "305350fd-fcd4-4254-ad75-927a1a271082": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bas-logo-steel_b0e1a816-c9fe-4957-961d-05c331696fce.png",
+            "link": ""
+          }
+        },
+        "7b5acf96-fb37-4b38-a1b0-3171b43ebeb7": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/stocks-designer-appliances-steel.png",
+            "link": ""
+          }
+        },
+        "9832e7ee-7340-4cf6-8d53-077f42860fb5": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hart-and-co-web_1e1561d7-d4b8-433b-9385-e243f42969e9.jpg",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16547518689ea5ef2b-0",
+        "16547518689ea5ef2b-1",
+        "16547518689ea5ef2b-2",
+        "16547518689ea5ef2b-3",
+        "8f84dec8-60c8-4938-abf7-fd8d7e40576a",
+        "bd49e0ff-0876-43bc-a5f1-3aa3cd6b363f",
+        "f3b6500f-e16a-478f-8ceb-5037cbe84ba4",
+        "bf4db46e-5b9a-4b3c-867d-a8df293689e9",
+        "6a5deb49-e0d0-439d-82d8-24adf9a3bd48",
+        "2f58aaca-fa76-4689-9ee8-be7e85a737a6",
+        "9be28fa2-aad9-42a3-9411-355bc092f69d",
+        "305350fd-fcd4-4254-ad75-927a1a271082",
+        "7b5acf96-fb37-4b38-a1b0-3171b43ebeb7",
+        "9832e7ee-7340-4cf6-8d53-077f42860fb5"
+      ],
+      "settings": {
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 50,
+        "padding_bottom": 70,
+        "section_bg": "#1b1b1b",
+        "title": "OUR PARTNERS",
+        "heading_color": "#ffffff",
+        "logo_opacity": 100,
+        "enable_slider": false,
+        "enable_autoplay": true,
+        "column_count": 8,
+        "mob_column_count": 3,
+        "divider": false
+      }
+    },
+    "1654690812a96dc25e": {
+      "type": "newsletter",
+      "disabled": true,
+      "blocks": {
+        "16546908120f1a260a-0": {
+          "type": "title",
+          "settings": {
+            "title": "Sign up and save",
+            "icon_enable": true
+          }
+        },
+        "16546908120f1a260a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>"
+          }
+        },
+        "16546908120f1a260a-2": {
+          "type": "form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "16546908120f1a260a-0",
+        "16546908120f1a260a-1",
+        "16546908120f1a260a-2"
+      ],
+      "settings": {
+        "color_background": "#ffffff",
+        "color_text": "#1c1d1d"
+      }
+    },
+    "1656892531df8a51bd": {
+      "type": "background-image-text",
+      "disabled": true,
+      "settings": {
+        "subtitle": "",
+        "title": "OUTDOOR",
+        "text": "<p>Go to outdoor section<\/p>",
+        "button_label": "outdoor",
+        "button_link": "shopify:\/\/collections\/all",
+        "image": "shopify:\/\/shop_images\/banner_outdoor.jpg",
+        "focal_point": "center",
+        "layout": "right",
+        "height": 650,
+        "parallax": false
+      }
+    },
+    "fading-images": {
+      "type": "fading-images",
+      "blocks": {
+        "1498501481980-0": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/slide-1.png",
+            "focal_point": "center center",
+            "slide_title1": "Aspire Range in Dark Stainless Steel",
+            "slide_title2": "Our new Aspire range will help make daily life a little easier, offering innovations for home cooks. Central to this is the dark stainless steel trend, which combines the premium and practical Westinghouse kitchen in a fresh new finish.",
+            "btn_label": "Share the story",
+            "btn_url": "shopify:\/\/collections\/all"
+          }
+        },
+        "1498501481980-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/slide-3.png",
+            "focal_point": "center center",
+            "slide_title1": "Aspire Range in Dark Stainless Steel",
+            "slide_title2": "Our new Aspire range will help make daily life a little easier, offering innovations for home cooks. Central to this is the dark stainless steel trend, which combines the premium and practical Westinghouse kitchen in a fresh new finish.",
+            "btn_label": "Know more",
+            "btn_url": "shopify:\/\/collections"
+          }
+        },
+        "1498501481980-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/banner_outdoor.jpg",
+            "focal_point": "center center",
+            "slide_title1": "OUTDOOR",
+            "slide_title2": "Visit our outdoor products",
+            "btn_label": "",
+            "btn_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "1498501481980-0",
+        "1498501481980-1",
+        "1498501481980-2"
+      ],
+      "settings": {
+        "title_lines": "2",
+        "title_font": "body",
+        "title_size": 30,
+        "description_size": 18,
+        "btn_text_size": 14,
+        "title_color": "#ffffff",
+        "title_bg_color": "#000000",
+        "title_bg_opacity": 0.5,
+        "text_align": "vertical-center horizontal-right",
+        "link": "",
+        "slide_speed": 10,
+        "color_overlay": "#000000",
+        "color_overlay_opacity": 24,
+        "desktop_height": "550px",
+        "mobile_height": "auto"
+      }
+    }
+  },
+  "order": [
+    "hero-video",
+    "16551900077c7adf18",
+    "1654683750035958ea",
+    "1654761768a16f204c",
+    "rich-text",
+    "165476188084e7069d",
+    "featured-collections",
+    "collection-callout",
+    "background-image-text",
+    "1654751868db37ecde",
+    "1654690812a96dc25e",
+    "1656892531df8a51bd",
+    "fading-images"
+  ]
+}
