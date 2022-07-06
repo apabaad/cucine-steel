@@ -1,18 +1,18 @@
 {% assign len = product.metafields.title.title.size | minus: 1 %}
 
-<nav class="product-sticky-nav">
-    <ul>
+<nav class="page-width product-sticky-nav">
+    <ul style="border: 1px solid black">
         {% for block in section.blocks %}  
             {% case block.type %}
                 {% when 'overview' %}
-                    <li {% if forloop.first %}class="active"{% endif %}><a href="#product-overview">{{block.settings.name}}</a></li>
+                    <li {% if forloop.first %} class="active"{% endif %}><a href="#product-overview">{{block.settings.name}}</a></li>
                 {% when 'benefits' %}
                     {% if product.metafields.benefit_content.benefit_conten != blank or product.metafields.benefit_image.benefit_image != blank %}
-                        <li {% if forloop.first %}class="active"{% endif %}><a href="#benefits">{{block.settings.name}}</a></li>          
+                        <li {% if forloop.first %}class="active"{% endif %}  ><a href="#benefits">{{block.settings.name}}</a></li>          
                     {% endif %}
                 {% when 'keyfeatures' %}
                     {% if product.metafields.features-list.feature-list != blank %}
-                        <li {% if forloop.first %}class="active"{% endif %}><a href="#keyfeatures">{{block.settings.name}}</a></li>          
+                        <li  {% if forloop.first %}class="active"{% endif %}><a href="#keyfeatures">{{block.settings.name}}</a></li>          
                     {% endif %}
                 {% when 'specifications' %}
                     {% if product.metafields.specification-title.specification-title != blank or product.metafields.specification-detail.specification-detail != blank %}
@@ -35,7 +35,7 @@
  
   </nav>
   
-  <main>
+  <main class="page-width">
     {% for block in section.blocks %}  
             {% case block.type %}
                 {% when 'benefits' %}
@@ -43,7 +43,7 @@
 					<section id="benefits" class="py-[40px] md:py-[60px] lg:py-[80px]">
 						<div class="container mx-auto">
 							<div class="px-4">
-								<h4 class="border-b border-black pb-4 font-bold uppercase">{{block.settings.name}}</h4>
+								<h4 class="pb-4 font-bold uppercase">{{block.settings.name}}</h4>
 								<div class="benefit-slider max-w-7xl mx-auto">
 									{% assign benefits = product.metafields.benefit_content.benefit_conten.size | minus: 1 %}
 									{% for i in (0..benefits) %}
@@ -69,10 +69,10 @@
 					{% endif %}
                 {% when 'keyfeatures' %}
                     {% if product.metafields.features-list.feature-list != blank %}
-					<section id="keyfeatures" class="py-[40px] md:py-[60px] lg:py-[80px] bg-[#f2f2f2]">
+					<section id="keyfeatures" class="py-[40px] md:py-[60px] lg:py-[80px]">
 						<div class="container mx-auto">
 							<div class="px-4">
-								<h4 class="border-b border-black pb-4 font-bold uppercase">{{block.settings.name}}</h4>
+								<h4 class="pb-4 font-bold uppercase">{{block.settings.name}}</h4>
 								<div class="features">
 									<div class="feature-content">
 										{{product.metafields.features-list.feature-list}}
@@ -87,7 +87,7 @@
 						<section id="specifications" class="py-[40px] md:py-[60px] lg:py-[80px]">
 							<div class="container mx-auto">
 								<div class="px-4">
-									<h4 class="border-b border-black pb-4 font-bold uppercase">{{block.settings.name}}</h4>
+									<h4 class="pb-4 font-bold uppercase">{{block.settings.name}}</h4>
 									{% assign specifications = product.metafields.specification-title.specification-title.size | minus: 1 %}
 									{% for i in (0..specifications) %}
 										<div class="specification-block pt-6 border-b last:border-0 border-black flex flex-wrap"> 
@@ -112,7 +112,7 @@
 						<section id="userManual" class="py-[40px] md:py-[60px] lg:py-[80px] bg-[#f2f2f2]">
 							<div class="container mx-auto">
 								<div class="px-4">
-									<h4 class="border-b border-black pb-4 font-bold uppercase">{{block.settings.name}}</h4>
+									<h4 class="pb-4 font-bold uppercase">{{block.settings.name}}</h4>
 									<div class="user-manual grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-5 gap-y-7">
 										{% assign manual = product.metafields.manual-description.manual-description.size | minus: 1 %}
 											{% for i in (0..manual) %}
@@ -422,7 +422,8 @@
   width: 100%;
   top: 0;
   left: 0;
-  background: #000;
+  background-color: #fff;
+  {% comment %} border-bottom: 1px solid black; {% endcomment %}
   position: sticky;
   top: 0;
   z-index: 9999;
@@ -441,7 +442,13 @@
       flex: 1 1 auto;
       max-width:250px;
       padding:15px 10px;
+      color:black !important;
 }
+
+.product-sticky-nav ul li a{
+      color:black !important;
+}
+
 @media(max-width:767px){
   .product-sticky-nav ul {
         overflow-x: auto;

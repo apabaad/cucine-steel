@@ -1979,7 +1979,9 @@ body .collapsible-trigger--inline .collapsible-trigger__icon svg {
   }
 }
 
-/* steel cucine  */
+/* ----------------------------------------------------------------
+ steel cucine homepage 
+-----------------------------------------------------------------*/
 
 .cucine-hover {
   transition: 0.5s ease;
@@ -1998,6 +2000,11 @@ body .collapsible-trigger--inline .collapsible-trigger__icon svg {
 .text-white {
   font-weight: bold;
 }
+
+/*---------------------------------------------------------------- 
+cucine  collection page 
+-----------------------------------------------------------------*/
+
 .collection-text-container {
   margin: auto;
   max-width: 1140px;
@@ -2024,30 +2031,64 @@ body .collapsible-trigger--inline .collapsible-trigger__icon svg {
 }
 
 .grid-product {
-  padding: 0 5px 0 5px !important;
   margin-bottom: -45px !important;
-  padding-top: 0 !important;
+}
+
+.grid-product__link {
+  position: relative;
 }
 
 .cucine-product-image {
-  position: relative;
+  margin: 0 10px 0 5px !important;
+
   transition: 0.5s ease;
-}
-
-.cucine-product-image:hover {
-  opacity: 0.5;
-}
-
-.cucine-product-image:hover .cucine-product-title {
-  display: block;
-  opacity: 1;
 }
 
 .cucine-product-title {
   position: absolute;
-  top: 50%;
+  top: 45%;
+  left: 35%;
   display: none;
   opacity: 1 !important;
-  font-weight: bold;
-  font-size: large;
+  text-align: center;
+}
+
+.cucine-product-model {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 35px;
+}
+
+.cucine-product-collection {
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.grid-product__link:hover .cucine-product-title {
+  display: block;
+}
+
+.cucine-product-image:hover {
+  opacity: 0.3;
+}
+
+.cucine-product-title:hover .cucine-product-image {
+  opacity: 0.3;
+}
+
+.variant-input {
+  width: 100px;
+  height: 100px;
+}
+
+.color-swatch {
+  min-width: 80%;
+  height: 80px;
+  border: none;
+  margin-left: 60px;
+}
+
+.color-swatch:before {
+  border: none !important;
 }

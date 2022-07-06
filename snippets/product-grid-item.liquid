@@ -95,10 +95,12 @@
                 src="{{ preview_image | img_url: '400x' }}"
                 alt="{{ preview_image.alt | escape }}">
             </noscript>
-            <div class="cucine-product-title">
-              {{product.title}}
-            </div>
+            
           </div>
+          <div class="cucine-product-title">
+            <span class="cucine-product-model"> {{ product.metafields.custom.model | upcase}}</span> <br>
+            <span class="cucine-product-collection"> {{ product.metafields.custom.collection | upcase }} </span>
+           </div>
         {%- endif -%}
 
         {%- if settings.product_hover_image and product.images.size > 1 -%}

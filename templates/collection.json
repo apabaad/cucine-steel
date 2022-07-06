@@ -2,6 +2,7 @@
   "sections": {
     "165484310347e1f3d7": {
       "type": "collection-page-header",
+      "disabled": true,
       "settings": {
         "container": "container",
         "layout": "inside",
@@ -17,8 +18,60 @@
         "overlay_opacity": 0.5,
         "enable_parallax": false,
         "upper_title": false,
-        "show_desc": true,
+        "show_desc": false,
         "collection_all_desc": ""
+      }
+    },
+    "16569736725ff77fcd": {
+      "type": "slideshow",
+      "blocks": {
+        "1656973672a1f5b7c4-0": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "text_align": "vertical-bottom horizontal-left",
+            "title_bg_color": "#000",
+            "title_bg_opacity": 0.5,
+            "image": "shopify:\/\/shop_images\/banner_steel_ascot.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "1656973672a1f5b7c4-0"
+      ],
+      "settings": {
+        "section_height": "550px",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "arrows",
+        "autoplay": false,
+        "autoplay_speed": 5
+      }
+    },
+    "16569737848e23c8b5": {
+      "type": "advanced-content",
+      "blocks": {
+        "1656973784a8e56a8f-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "{{collection.metafields.custom.description}}",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "1656973784a8e56a8f-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
       }
     },
     "main-collection": {
@@ -57,6 +110,8 @@
   },
   "order": [
     "165484310347e1f3d7",
+    "16569736725ff77fcd",
+    "16569737848e23c8b5",
     "main-collection"
   ]
 }

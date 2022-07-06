@@ -665,6 +665,7 @@
     },
     "fading-images": {
       "type": "fading-images",
+      "disabled": true,
       "blocks": {
         "1498501481980-0": {
           "type": "image",
@@ -724,6 +725,38 @@
         "desktop_height": "550px",
         "mobile_height": "auto"
       }
+    },
+    "165697693682ff693f": {
+      "type": "slideshow",
+      "blocks": {
+        "1656976936192c74a9-0": {
+          "type": "image",
+          "settings": {
+            "title": "OUTDOOR",
+            "title_size": 55,
+            "subheading": "Visit our outdoor collection",
+            "link": "",
+            "link_text": "More",
+            "text_align": "vertical-center horizontal-right",
+            "title_bg_color": "#000",
+            "title_bg_opacity": 0.5,
+            "image": "shopify:\/\/shop_images\/banner_outdoor.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "1656976936192c74a9-0"
+      ],
+      "settings": {
+        "section_height": "550px",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
     }
   },
   "order": [
@@ -739,6 +772,7 @@
     "1654751868db37ecde",
     "1654690812a96dc25e",
     "1656892531df8a51bd",
-    "fading-images"
+    "fading-images",
+    "165697693682ff693f"
   ]
 }

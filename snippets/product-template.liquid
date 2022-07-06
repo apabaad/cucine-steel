@@ -62,12 +62,18 @@
 
   <div class="page-content" id="product-overview">
     <div class="page-width">
+     
+      <div style="margin-bottom:50px;">
+      <span class="cucine-product-model" style="margin-left:10%; font-size:3rem;">{{ product.metafields.custom.model }}</span><br/>
+      <span class="cucine-product-collection" style="margin-left:10%;">{{ product.metafields.custom.collection }}</span>
+      </div>
 
       {%- if settings.show_breadcrumbs and isModal != true -%}
         {%- render 'breadcrumbs' -%}
       {%- endif -%}
 
       <div class="grid-view">
+        
         <div class="grid__item {{ product_image_width }} product-single__sticky">
           {%- render 'product-images',
             section_id: section_id,
@@ -100,6 +106,10 @@
                 </div>
               {%- endif -%}
 
+              {% comment %} 
+              ----------------------------------------------------------------------
+              product title
+              ----------------------------------------------------------------------
               {%- if isModal -%}
                 <p class="h2 product-single__title">
                   {{ product.title }}
@@ -112,7 +122,7 @@
                     {{ 'home_page.onboarding.product_title' | t }}
                   {%- endunless -%}
                 </h1>
-              {%- endif -%}
+              {%- endif -%} {% endcomment %}
 
               {%- if sku_enable -%}
                 <p data-sku class="product-single__sku">
@@ -251,6 +261,7 @@
                     {% endif %}
                   {%- when 'variant_picker' -%}
                     <div class="product-block" {{ block.shopify_attributes }}>
+                      
                       {% unless product.has_only_default_variant %}
                         {%- for option in product.options_with_values -%}
 
@@ -283,6 +294,7 @@
                               connect_to_sizechart: connect_to_sizechart,
                               sizechart_index: sizechart_index
                             -%}
+                            
                           {% else %}
                             {%- render 'variant-dropdown',
                               product: product,
@@ -298,8 +310,8 @@
                       {% endunless %}
                     </div>
                   {%- when 'buy_buttons' -%}
-                  {% if product.price > 0%}
-                    <div class="product-block" {{ block.shopify_attributes }}>
+                  
+                    <div class="product-block" {{ block.shopify_attributes }}  {% if product.price > 0%}style="display:block;"{% else %} style="display:none;"{% endif %}>
                       {%- unless product.empty? -%}
                         <div class="product-block">
                           {%- render 'product-form',
@@ -319,7 +331,7 @@
                           ></div>
                       {%- endif -%}
                     </div> 
-                    {% endif %}
+                    
                   {%- when 'sales_point' -%}
                     {%- unless block.settings.text == blank -%}
                       <div class="product-block product-block--sales-point" {{ block.shopify_attributes }}>
@@ -369,19 +381,7 @@
                         </div>
                       </div>
                     </div>
-                  {%- when 'product_downloads' -%}
-                  <div class="product-block" {{ block.shopify_attributes }}>
-                    {% if product.metafields.my_fields.downloads_pdf != blank and block.settings.enable_specification_sheet != blank %}
-                      <a href="{{product.metafields.my_fields.downloads_pdf | file_url  }}" target="_blank" class="bg-black px-4 py-2 rounded text-white mr-2 hover:text-white hover:!bg-[#282828] inline-flex items-center">
-                        {% render 'icon', name: 'printer', size: 'custom', class: 'w-[20px] h-[20px] mr-[10px]' %}
-                        Specification Sheet</a>
-                    {% endif %}
-                    {% if product.metafields.my_fields.user_manual != blank and block.settings.enable_user_manual != blank %}
-                      <a href="{{product.metafields.my_fields.user_manual | file_url }}" target="_blank" class="bg-black px-4 py-2 rounded text-white hover:text-white inline-flex items-center hover:!bg-[#282828]">
-                        {% render 'icon', name: 'pdf', size: 'custom', class: 'w-[20px] h-[20px] mr-[10px]' %}
-                        User Manual</a>
-                    {% endif %}
-                  </div>
+                 
                   {%- when 'custom' -%}
                     <div class="product-block" {{ block.shopify_attributes }}>
                       {{ block.settings.code }}
