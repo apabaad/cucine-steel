@@ -738,7 +738,7 @@
             "link": "",
             "link_text": "More",
             "text_align": "vertical-center horizontal-right",
-            "title_bg_color": "#000",
+            "title_bg_color": "#000000",
             "title_bg_opacity": 0.5,
             "image": "shopify:\/\/shop_images\/banner_outdoor.jpg",
             "overlay_opacity": 0,
