@@ -60,9 +60,8 @@
 
   {%- render 'product-template-variables', product: product, current_variant: current_variant -%}
 
-  <div class="page-content" id="product-overview">
-    <div class="page-width ">
-     
+  <div class="page-content page-width" id="product-overview">
+
       <div style="margin-bottom:50px;">
       <span class="cucine-product-model" style="margin-left:10%; font-size:3rem;">{{ product.metafields.custom.model }}</span><br/>
       <span class="cucine-product-collection" style="margin-left:10%;">{{ product.metafields.custom.collection }}</span>
@@ -72,7 +71,7 @@
         {%- render 'breadcrumbs' -%}
       {%- endif -%}
 
-      <div class="grid-view grid-view-cucine" style="margin:auto;">
+      <div class="grid-view grid-view-cucine">
         
         <div class="grid__item {{ product_image_width }} product-single__sticky">
           {%- render 'product-images',
@@ -399,5 +398,4 @@
         </div>
       </div>
     </div>
-  </div>
 </div>

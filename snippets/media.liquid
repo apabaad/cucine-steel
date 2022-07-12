@@ -52,7 +52,7 @@
     endif
   -%}
 
-  <div data-product-image-main class="product-image-main">
+  <div data-product-image-main class="product-image-main product-image-main--cucine">
     {%- liquid
       assign media_aspect_ratio = media.aspect_ratio
       assign media_width = media.width
@@ -89,7 +89,7 @@
           assign zoom_img_url = media.preview_image | img_url: product_zoom_size
         -%}
 
-        <img class="{% if product_zoom_enable %}photoswipe__image{% endif %} lazyload"
+        <img class="{% if product_zoom_enable %}photoswipe__image{% endif %} lazyload cucine-product-image-size"
           data-photoswipe-src="{{ zoom_img_url }}"
           data-photoswipe-width="{{ media_width }}"
           data-photoswipe-height="{{ media_height }}"

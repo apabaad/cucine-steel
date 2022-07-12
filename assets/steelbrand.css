@@ -2077,29 +2077,18 @@ cucine  collection page
   opacity: 0.3;
 }
 
-.variant-input {
-  width: 100px;
-  max-height: 100px;
-  /* margin-left: -130px !important; */
-}
-
-.color-swatch {
-  min-width: 80%;
-  height: 80px;
-  border: none;
-  margin-left: -13px !important;
-}
-
-.color-swatch:before {
-  border: none !important;
-}
-
-.product-single__meta--cucine {
-  padding-left: 20% !important;
-}
-
 .grid-view-cucine {
-  margin-left: 10% !important;
+  /* margin-left: 10% !important; */
+}
+
+.product-image-main--cucine {
+  max-height: 550px !important;
+  max-width: 550px !important;
+}
+
+.cucine-product-image-size {
+  max-height: 490px !important;
+  max-width: 490px !important;
 }
 
 @media screen and (min-width: 1200px) {

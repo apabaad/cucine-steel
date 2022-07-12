@@ -33,20 +33,28 @@
         -%}
       </span>
     {%- endif -%}
-    
+
+    {%- if is_color -%}
       <span class="variant__label-info">
-        &nbsp
         &mdash;
-        &nbsp
         <span
-          style="font-weight:bold;"
           data-variant-color-label
           data-index="{{ forloop.index0 }}"
           data-option-index="{{ color_option_index }}">
           {{ option.selected_value }}
         </span>
       </span>
-    
+
+      {% else %}
+
+      <span class="variant__label-info">
+        &mdash;
+        <span>
+          {{ option.selected_value }}
+        </span>
+      </span>
+
+    {%- endif -%}
   </label>
 
   <fieldset class="variant-input-wrap"
@@ -88,7 +96,7 @@
             class="color-swatch color-swatch--{{ value | handle }}{% unless product_available %} disabled{% endunless %}"
             style="background-color: {{ color_swatch_fallback }};{% if images[color_file_name] != blank %}  background-image: url({{ color_image }});{% endif %}"
           >
-            {{ value | escape }}
+            
           </label>
 
         {%- elsif option.name == "Trim"  -%}
@@ -103,7 +111,7 @@
             class="label-bg-img"
             {% unless product_available %} class="disabled"{% endunless %}>
 
-            {{ value | escape }}
+           
             
             </label>
 
@@ -118,7 +126,7 @@
                class="label-bg-img"
                {% unless product_available %} class="disabled"{% endunless %}>
    
-               {{ value | escape }}
+              
                
                </label>
 
@@ -133,7 +141,7 @@
             class="label-bg-img"
             {% unless product_available %} class="disabled"{% endunless %}>
 
-            {{ value | escape }}
+           
             
             </label>
 
@@ -148,7 +156,7 @@
               class="label-bg-img"
               {% unless product_available %} class="disabled"{% endunless %}>
   
-              {{ value | escape }}
+             
               
               </label>
 
@@ -156,34 +164,54 @@
 
           
           {%- elsif option.name == "Cooktop"  -%}
-          {% if  value == "5FI"%}
-          <label 
-            style = "background-image:url(
-              {{ product.metafields.custom.cooktop_5fi | img_url:"master" }}
-            )"
-            title = "{{ value | escape }}" 
-            for="ProductSelect-{{ section_id }}-{{ product.id }}-option-{{ option.name | handleize }}-{{ value | url_encode }}" 
-            class="label-bg-img--cooktop"
-            {% unless product_available %} class="disabled"{% endunless %}>
+          
+          <div class="cooktop">
 
-            {{ value | escape }}
-            
-          </label>
+          {% if  value == "5FI"%}
+
+            <div class="cooktop-5fi flex" id="cooktop-5fi">
+              <label 
+              
+              style = "background-image:url(
+                {{ product.metafields.custom.cooktop_5fi | img_url:"master" }}
+              )"
+              title = "{{ value | escape }}" 
+              for="ProductSelect-{{ section_id }}-{{ product.id }}-option-{{ option.name | handleize }}-{{ value | url_encode }}" 
+              class="label-bg-img--cooktop"
+              {% unless product_available %} class="disabled"{% endunless %}
+              onclick="Cooktop5FIBackground()"
+            >
+              
+            </label>
+            <div class="cooktop-description">
+              <strong> {{ value | escape }}</strong><br/>
+            <span> {{ product.metafields.custom.description_5fi }} </span>
+            </div>
+          </div>
+        
           {% elsif  value == "6W"%}
+
+          <div class="cooktop-6w flex" id="cooktop-6w">
           <label 
+            
             style = "background-image:url(
               {{ product.metafields.custom.cooktop_6w | img_url:"master" }}
             )"
             title = "{{ value | escape }}" 
             for="ProductSelect-{{ section_id }}-{{ product.id }}-option-{{ option.name | handleize }}-{{ value | url_encode }}" 
             class="label-bg-img--cooktop"
-            {% unless product_available %} class="disabled"{% endunless %}>
-
-            {{ value | escape }}
-            
+            {% unless product_available %} class="disabled"{% endunless %}
+            onclick="Cooktop6WBackground()"
+          >
           </label>
-        
+          <div class="cooktop-description">
+          <strong> {{ value | escape }}</strong><br/>
+          <span> {{ product.metafields.custom.description_6w }} </span>
+        </div>
+      </div>
+
         {%- endif -%}
+      </div>
         {%- endif -%}
       </div>
     {%- endfor -%}
@@ -192,32 +220,65 @@
 
 
 {% style %}
-  .cucine-variant{
-    
-    /* min-height:0px; */
-    /* min-width:80px; */
-    
-  }
+ 
+.color-swatch {
+  width: 74px;;
+  height: 74px;
+  border: none;
+  margin-left: -10px !important;
+  margin-bottom: 5px !important;
+}
+
+.color-swatch:before {
+  border: 1px solid white !important;
+}
+
 
   .label-bg-img{
-    /* background-image:url({{ product.metafields.custom.test_single_image_bg_variant | img_url:"master" }}); */
-    /* background-image:url({{ product.metafields.custom.trim_variant_bg[forloop.index0] | img_url:"master" }}); */
-    
-    /* color:white !important; */
-    height:50%;
-    width:100%;
-    background-repeat: no-repeat;
+    height:41px;
+    width:103px;
+    margin-left: -10px !important;
   }
 
+ 
   .label-bg-img--cooktop{
-    min-width: 100%;
-  height: 80px;
-    background-repeat: no-repeat;
+  width: 200px;
+  height: 150px;
   }
+
+  .cooktop-description{
+  max-width: 250px;
+  height: 150px;
+  padding: 20px;
+  }
+
   .variant-input{
     margin-left:15px !important;
   }
+
   .variant-input-wrap {
     margin: 0 0 20px;
+    max-width:70%;
   }
+
+  
+  .cooktop-focusable{
+    background-color: #E5E5E5;
+  }
+
+ 
+
 {% endstyle %}
+
+<script>
+
+var Cooktop5FIBackground = () => {
+  document.getElementById("cooktop-5fi").classList.add('cooktop-focusable');
+  document.getElementById("cooktop-6w").classList.remove('cooktop-focusable');
+}
+var Cooktop6WBackground = () => {
+  document.getElementById("cooktop-6w").classList.add('cooktop-focusable');
+  document.getElementById("cooktop-5fi").classList.remove('cooktop-focusable');
+}
+
+</script>
