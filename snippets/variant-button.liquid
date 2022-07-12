@@ -20,7 +20,8 @@
 <div class="variant-wrapper js" data-type="button">
   <label class="variant__label{% if option.name == 'Default' or option.name == 'Title' %} hidden-label{% endif %}{% unless variant_labels %} hidden-label{% endunless %}"
     for="ProductSelect-{{ section_id }}-{{ product.id }}-option-{{ forloop.index0 }}">
-    <span style="font-weight:500; font-size:22px; line-height:25px; text-transform:none;"> Choose your  {{ option.name }} </span>
+    <span style="font-weight:500; font-size:22px; line-height:25px; text-transform:none; letter-spacing:0;"> 
+    Choose your  <span style="font-weight:bold;">{{ option.name }} </span></span>
     {%- if connect_to_sizechart and is_size -%}
       <span class="variant__label-info">
         &mdash;
@@ -32,17 +33,20 @@
         -%}
       </span>
     {%- endif -%}
-    {%- if is_color -%}
+    
       <span class="variant__label-info">
+        &nbsp
         &mdash;
+        &nbsp
         <span
+          style="font-weight:bold;"
           data-variant-color-label
           data-index="{{ forloop.index0 }}"
           data-option-index="{{ color_option_index }}">
           {{ option.selected_value }}
         </span>
       </span>
-    {%- endif -%}
+    
   </label>
 
   <fieldset class="variant-input-wrap"
@@ -86,10 +90,134 @@
           >
             {{ value | escape }}
           </label>
-        {%- else -%}
-          <label for="ProductSelect-{{ section_id }}-{{ product.id }}-option-{{ option.name | handleize }}-{{ value | url_encode }}"{% unless product_available %} class="disabled"{% endunless %}>{{ value | escape }}</label>
+
+        {%- elsif option.name == "Trim"  -%}
+        {% if value == "Brass"%}
+
+           <label 
+            style = "background-image:url(
+              {{ product.metafields.custom.brass_trim | img_url:"master" }}
+            )"
+            title = "{{ value | escape }}" 
+            for="ProductSelect-{{ section_id }}-{{ product.id }}-option-{{ option.name | handleize }}-{{ value | url_encode }}" 
+            class="label-bg-img"
+            {% unless product_available %} class="disabled"{% endunless %}>
+
+            {{ value | escape }}
+            
+            </label>
+
+          {% elsif  value == "Bronze"%}
+
+              <label 
+               style = "background-image:url(
+                 {{ product.metafields.custom.bronze_trim | img_url:"master" }}
+               )"
+               title = "{{ value | escape }}" 
+               for="ProductSelect-{{ section_id }}-{{ product.id }}-option-{{ option.name | handleize }}-{{ value | url_encode }}" 
+               class="label-bg-img"
+               {% unless product_available %} class="disabled"{% endunless %}>
+   
+               {{ value | escape }}
+               
+               </label>
+
+          {% elsif  value == "Chrome"%}
+
+          <label 
+            style = "background-image:url(
+              {{ product.metafields.custom.chrome_trim | img_url:"master" }}
+            )"
+            title = "{{ value | escape }}" 
+            for="ProductSelect-{{ section_id }}-{{ product.id }}-option-{{ option.name | handleize }}-{{ value | url_encode }}" 
+            class="label-bg-img"
+            {% unless product_available %} class="disabled"{% endunless %}>
+
+            {{ value | escape }}
+            
+            </label>
+
+            {% elsif  value == "Nickel"%}
+
+            <label 
+              style = "background-image:url(
+                {{ product.metafields.custom.nickel_trim | img_url:"master" }}
+              )"
+              title = "{{ value | escape }}" 
+              for="ProductSelect-{{ section_id }}-{{ product.id }}-option-{{ option.name | handleize }}-{{ value | url_encode }}" 
+              class="label-bg-img"
+              {% unless product_available %} class="disabled"{% endunless %}>
+  
+              {{ value | escape }}
+              
+              </label>
+
+          {% endif %}
+
+          
+          {%- elsif option.name == "Cooktop"  -%}
+          {% if  value == "5FI"%}
+          <label 
+            style = "background-image:url(
+              {{ product.metafields.custom.cooktop_5fi | img_url:"master" }}
+            )"
+            title = "{{ value | escape }}" 
+            for="ProductSelect-{{ section_id }}-{{ product.id }}-option-{{ option.name | handleize }}-{{ value | url_encode }}" 
+            class="label-bg-img--cooktop"
+            {% unless product_available %} class="disabled"{% endunless %}>
+
+            {{ value | escape }}
+            
+          </label>
+          {% elsif  value == "6W"%}
+          <label 
+            style = "background-image:url(
+              {{ product.metafields.custom.cooktop_6w | img_url:"master" }}
+            )"
+            title = "{{ value | escape }}" 
+            for="ProductSelect-{{ section_id }}-{{ product.id }}-option-{{ option.name | handleize }}-{{ value | url_encode }}" 
+            class="label-bg-img--cooktop"
+            {% unless product_available %} class="disabled"{% endunless %}>
+
+            {{ value | escape }}
+            
+          </label>
+        
+        {%- endif -%}
         {%- endif -%}
       </div>
     {%- endfor -%}
   </fieldset>
 </div>
+
+
+{% style %}
+  .cucine-variant{
+    
+    /* min-height:0px; */
+    /* min-width:80px; */
+    
+  }
+
+  .label-bg-img{
+    /* background-image:url({{ product.metafields.custom.test_single_image_bg_variant | img_url:"master" }}); */
+    /* background-image:url({{ product.metafields.custom.trim_variant_bg[forloop.index0] | img_url:"master" }}); */
+    
+    /* color:white !important; */
+    height:50%;
+    width:100%;
+    background-repeat: no-repeat;
+  }
+
+  .label-bg-img--cooktop{
+    min-width: 100%;
+  height: 80px;
+    background-repeat: no-repeat;
+  }
+  .variant-input{
+    margin-left:15px !important;
+  }
+  .variant-input-wrap {
+    margin: 0 0 20px;
+  }
+{% endstyle %}

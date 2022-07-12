@@ -1,30 +1,30 @@
 {% assign len = product.metafields.title.title.size | minus: 1 %}
 
-<nav class="page-width product-sticky-nav">
-    <ul style="border: 1px solid black">
+<nav class="page-width page-width-cucine-product product-sticky-nav">
+    <ul>
         {% for block in section.blocks %}  
             {% case block.type %}
                 {% when 'overview' %}
-                    <li {% if forloop.first %} class="active"{% endif %}><a href="#product-overview">{{block.settings.name}}</a></li>
+                    <li {% if forloop.first %} class="active" {% else %} class="not-active" {% endif %}><a href="#product-overview">{{block.settings.name}}</a></li>
                 {% when 'benefits' %}
                     {% if product.metafields.benefit_content.benefit_conten != blank or product.metafields.benefit_image.benefit_image != blank %}
-                        <li {% if forloop.first %}class="active"{% endif %}  ><a href="#benefits">{{block.settings.name}}</a></li>          
+                        <li {% if forloop.first %} class="active" {% else %} class="not-active" {% endif %}  ><a href="#benefits">{{block.settings.name}}</a></li>          
                     {% endif %}
                 {% when 'keyfeatures' %}
                     {% if product.metafields.features-list.feature-list != blank %}
-                        <li  {% if forloop.first %}class="active"{% endif %}><a href="#keyfeatures">{{block.settings.name}}</a></li>          
+                        <li  {% if forloop.first %} class="active" {% else %} class="not-active" {% endif %}><a href="#keyfeatures">{{block.settings.name}}</a></li>          
                     {% endif %}
                 {% when 'specifications' %}
                     {% if product.metafields.specification-title.specification-title != blank or product.metafields.specification-detail.specification-detail != blank %}
-                        <li {% if forloop.first %}class="active"{% endif %}><a href="#specifications">{{block.settings.name}}</a></li>          
+                        <li {% if forloop.first %} class="active" {% else %} class="not-active" {% endif %}><a href="#specifications">{{block.settings.name}}</a></li>          
                     {% endif %}
                 {% when 'user_manual' %}
                     {% if product.metafields.manual-description.manual-description != blank %}
-                        <li {% if forloop.first %}class="active"{% endif %}><a href="#userManual">{{block.settings.name}}</a></li>          
+                        <li {% if forloop.first %} class="active" {% else %} class="not-active" {% endif %}><a href="#userManual">{{block.settings.name}}</a></li>          
                     {% endif %}
                 {% when 'product-recommendations' %}
                 
-                    <li {% if forloop.first %}class="active"{% endif %}><a href="#Recommendations-{{ product.id }}">
+                    <li {% if forloop.first %} class="active" {% else %} class="not-active" {% endif %}><a href="#Recommendations-{{ product.id }}">
                         {{block.settings.product_recommendations_heading}}</a></li>
             {% endcase %}
         {% endfor %}
@@ -35,7 +35,8 @@
  
   </nav>
   
-  <main class="page-width">
+<nav class="page-width page-width-cucine-product product-sticky-nav">
+  <main class="page-width ">
     {% for block in section.blocks %}  
             {% case block.type %}
                 {% when 'benefits' %}
@@ -483,6 +484,15 @@
 .product-sticky-nav ul li.active a:before{
         right: 0;
 }
+
+.active{
+border-top: 1px solid black; 
+border-left: 1px solid black; 
+border-right: 1px solid black; 
+}
+
+.not-active{
+  border-bottom: 1px solid black; }
     
   {% endstylesheet %}
   

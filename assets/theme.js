@@ -3546,6 +3546,7 @@ lazySizesConfig.expFactor = 2.2;
       selectedAttraction: 0.14,
       setGallerySize: true,
       wrapAround: true,
+      imagesLoaded: true,
     };
 
     function slideshow(el, args) {

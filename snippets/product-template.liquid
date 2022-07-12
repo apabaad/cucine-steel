@@ -61,7 +61,7 @@
   {%- render 'product-template-variables', product: product, current_variant: current_variant -%}
 
   <div class="page-content" id="product-overview">
-    <div class="page-width">
+    <div class="page-width ">
      
       <div style="margin-bottom:50px;">
       <span class="cucine-product-model" style="margin-left:10%; font-size:3rem;">{{ product.metafields.custom.model }}</span><br/>
@@ -72,7 +72,7 @@
         {%- render 'breadcrumbs' -%}
       {%- endif -%}
 
-      <div class="grid-view">
+      <div class="grid-view grid-view-cucine" style="margin:auto;">
         
         <div class="grid__item {{ product_image_width }} product-single__sticky">
           {%- render 'product-images',
@@ -91,7 +91,7 @@
 
         <div class="grid__item {{ product_description_width }}">
 
-          <div class="product-single__meta">
+          <div class="product-single__meta product-single__meta--cucine ">
             <div class="product-block product-block--header">
               {%- if settings.vendor_enable -%}
                 <div class="product-single__vendor">
@@ -146,7 +146,7 @@
                       {{ block.settings.text }}
                     </div>
                   {%- when 'tab' -%}
-                    <div class="product-block product-block--tab" {{ block.shopify_attributes }}>
+                    <div class="product-block product-block--tab" {{ block.shopify_attributes }} >
                       {% assign tab_id = block.id | append: product.id %}
                       {% capture tab_content %}
                         {{ block.settings.content }}
