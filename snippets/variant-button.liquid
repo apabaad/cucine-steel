@@ -48,16 +48,16 @@
       {% else %}
 
       <span class="variant__label-info">
-        &mdash;
+        {% comment %} &mdash; {% endcomment %}
         <span>
-          {{ option.selected_value }}
+          {% comment %} {{ option.name }} {% endcomment %}
         </span>
       </span>
 
     {%- endif -%}
   </label>
 
-  <fieldset class="variant-input-wrap"
+  <fieldset class="variant-input-wrap cucine-{{ option.name }}-fieldset"
     name="{{ option.name }}"
     data-index="option{{ option_index }}"
     data-handle="{{ option.name | handleize }}"
@@ -244,6 +244,7 @@
   .label-bg-img--cooktop{
   width: 200px;
   height: 150px;
+  background-repeat: no-repeat;
   }
 
   .cooktop-description{
@@ -258,10 +259,15 @@
 
   .variant-input-wrap {
     margin: 0 0 20px;
-    max-width:70%;
   }
 
+  .cucine-Color-fieldset{
+    max-width:70%;
+  }
   
+  .cooktop{
+   }
+
   .cooktop-focusable{
     background-color: #E5E5E5;
   }

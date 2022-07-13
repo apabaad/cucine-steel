@@ -13,23 +13,6 @@
 </div> 
 </section>
 
- {% comment %} <section class="page-width">
-  <span style ="margin-left:20px;color:#20447E;" class="label">Additional Resources</span>
-    {% for block in section.blocks %}
-      <h2>{{presets.settings.section-heading}}</h2>
-    {% endfor %}
-    <div class="manual-buttons-container">
-   
-    {% for block in section.blocks %}
-    {% if block.settings.view-btn-link and block.settings.view-btn != blank %}
-    <a class="manual-buttons " href="{{ product.metafields.my_fields.downloads_pdf | file_url }}" target="_blank">
-          {{ block.settings.view-btn }}
-        </a>
-    {%endif%}
-    {% endfor %} {% endcomment %}
-  
-  </div>
-  </section> 
   
          {% schema %} 
             {
@@ -67,7 +50,6 @@
         align-items: center;
         flex-direction:row;
         color:white;
-        margin: 15px 80px;
         margin-bottom: 80px;
         max-width:40%;
           }

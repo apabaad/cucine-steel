@@ -2091,7 +2091,7 @@ cucine  collection page
   max-width: 490px !important;
 }
 
-@media screen and (min-width: 1200px) {
+/* @media screen and (min-width: 1200px) {
   .page-width-cucine-product {
     width: 1338px !important;
   }
@@ -2107,4 +2107,4 @@ cucine  collection page
   .page-width-cucine-product {
     width: 750px;
   }
-}
+} */
