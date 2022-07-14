@@ -1,8 +1,11 @@
 {
   "current": {
+    "color_body_bg": "#ffffff",
     "color_borders": "#e8e8e1",
     "color_button": "#111111",
     "color_button_text": "#ffffff",
+    "color_header": "#232323",
+    "color_header_text": "#ffffff",
     "color_footer": "#111111",
     "color_footer_text": "#ffffff",
     "color_drawer_background": "#ffffff",
@@ -95,7 +98,7 @@
           "95a0559c-388e-4ecb-8f6c-358ddd18e422"
         ],
         "settings": {
-          "logo": "shopify:\/\/shop_images\/steelbrand-logo_9a368c54-7409-4eac-b1c8-f332e09a746a.png",
+          "logo": "shopify:\/\/shop_images\/steelbrand-logo.png",
           "logo-inverted": "shopify:\/\/shop_images\/steelbrand-logo.png",
           "desktop_logo_width": 200,
           "mobile_logo_width": 140,
