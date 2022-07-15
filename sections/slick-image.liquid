@@ -9,7 +9,19 @@
     <div class = "bbq-conf-img">
         <div class="bbq-conf-img-item">
             <div class="item-pointer" style="left:38%; top:65%;">
+                <div class="item-card">
+                    <div class="item-card-row">
+                        <div class="item-image">
+                            <img src="https://www.steel-cucine.com/content/uploads/steel/2017/03/G7S-L2-inox.jpg">
+                        </div>
+                        <div class="item-description">
+                            <h3 class="item-title">Sink 70cm</h3>
+                            <a href="/products/swing-90-sinks" target="_blank">PRODUCT DETAIL</a>
+                        </div>
+                    </div> 
                 
+
+                </div> 
                 
                 
             </div>
@@ -149,7 +161,51 @@
         border: 1px solid white;
        }
 
-       
+       .item-pointer:hover .item-card{
+        display:block;
+       }
+
+       .item-pointer:hover{
+        -webkit-animation: none;  
+        -moz-animation: none;  
+        -o-animation: none;  
+        animation: none;
+       }
+        
+
+       .item-card{
+        display:none;
+        background-color:white;
+        width:400px;
+        cursor:auto;
+        position:absolute;
+       margin-top:-16vh;
+       margin-left:1.5vh;
+       z-index:9999;
+       border-radius:11px;
+       }
+
+       .item-card-row{
+        display:flex;
+       }
+
+       .item-image img {
+        padding:14px 20px 30px 40px;
+        width:190px;
+       }
+
+       .item-description {
+        padding:60px 10px 40px 0;
+       }
+
+       .item-title{
+        font-weight:bold;
+       }
+
+       .item-description a{
+        color:red;
+        text-decoration:underline;
+       }
 
        @keyframes blink {
         0%{
