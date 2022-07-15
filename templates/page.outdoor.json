@@ -179,11 +179,13 @@
             "item1-link": "shopify:\/\/products\/swing-90-sinks",
             "item2-pointer-top": "65",
             "item2-pointer-left": "29",
-            "item2-card-title": "",
+            "item2-card-image": "shopify:\/\/shop_images\/table_90.png",
+            "item2-card-title": "Table 90cm",
             "item2-link": "",
             "item3-pointer-top": "65",
             "item3-pointer-left": "23",
-            "item3-card-title": "",
+            "item3-card-image": "shopify:\/\/shop_images\/table_90.png",
+            "item3-card-title": "Table 90cm",
             "item3-link": ""
           }
         },
@@ -197,11 +199,13 @@
             "item1-link": "",
             "item2-pointer-top": "65",
             "item2-pointer-left": "42",
-            "item2-card-title": "",
+            "item2-card-image": "shopify:\/\/shop_images\/bbq_90.png",
+            "item2-card-title": "BBQ 90cm",
             "item2-link": "",
             "item3-pointer-top": "65",
             "item3-pointer-left": "35",
-            "item3-card-title": "",
+            "item3-card-image": "shopify:\/\/shop_images\/bbq_90.png",
+            "item3-card-title": "BBQ 90cm",
             "item3-link": ""
           }
         },
@@ -215,11 +219,13 @@
             "item1-link": "",
             "item2-pointer-top": "65",
             "item2-pointer-left": "55",
-            "item2-card-title": "",
+            "item2-card-image": "shopify:\/\/shop_images\/frige_90.jpg",
+            "item2-card-title": "Fridge 90cm",
             "item2-link": "",
             "item3-pointer-top": "65",
             "item3-pointer-left": "50",
-            "item3-card-title": "",
+            "item3-card-image": "shopify:\/\/shop_images\/cook-unit_90.jpg",
+            "item3-card-title": "Cook Unit 90cm",
             "item3-link": ""
           }
         },
@@ -232,11 +238,13 @@
             "item1-link": "",
             "item2-pointer-top": "65",
             "item2-pointer-left": "68",
-            "item2-card-title": "",
+            "item2-card-image": "shopify:\/\/shop_images\/Sink_90.png",
+            "item2-card-title": "Cook Unit 90cm",
             "item2-link": "",
             "item3-pointer-top": "65",
             "item3-pointer-left": "64",
-            "item3-card-title": "",
+            "item3-card-image": "shopify:\/\/shop_images\/cook-unit_90.jpg",
+            "item3-card-title": "Cook Unit 90cm",
             "item3-link": ""
           }
         },
@@ -253,7 +261,8 @@
             "item2-link": "",
             "item3-pointer-top": "65",
             "item3-pointer-left": "77",
-            "item3-card-title": "",
+            "item3-card-image": "shopify:\/\/shop_images\/frige_90.jpg",
+            "item3-card-title": "Fridge 90cm",
             "item3-link": ""
           }
         }
