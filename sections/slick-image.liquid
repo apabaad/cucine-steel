@@ -1,0 +1,197 @@
+<div class ="bbq-conf-container">
+    <div class="page-width">
+    <h2 class="text-center text-white" style="padding-top:20px;">Choose your configuration </h2>
+    <div class="bbq-conf-size-btn">
+        <div class="btn btn--tertiary btn--tertiary-cucine" data-slide="0">SMALL</div>
+        <div class="btn btn--tertiary btn--tertiary-cucine" data-slide="1">MEDIUM</div>
+        <div class="btn btn--tertiary btn--tertiary-cucine" data-slide="2">LARGE</div>
+    </div>
+    <div class = "bbq-conf-img">
+        <div class="bbq-conf-img-item">
+            <div class="item-pointer" style="left:38%; top:65%;">
+                
+                
+                
+            </div>
+            <div class="item-pointer" style="left:49%; top:65%;">
+                
+                
+            </div>
+            <div class="item-pointer" style="left:60%; top:65%;">
+                
+                
+            </div>
+            <img src="https://cdn.shopify.com/s/files/1/0647/3151/3071/files/small.png?v=1657842917">
+            
+        </div>
+        <div class="bbq-conf-img-item">
+            <div class="item-pointer" style="left:29%;
+                top:65%;">
+                
+                
+            </div>
+            <div class="item-pointer" style="left:42%;
+                top:65%;">
+                
+                
+            </div>
+            <div class="item-pointer" style="left:55%;
+                top:65%;">
+                
+                
+            </div>
+            <div class="item-pointer" style="left:68%;
+                top:65%;">
+                
+                
+            </div>
+            <img src="https://cdn.shopify.com/s/files/1/0647/3151/3071/files/medium.jpg?v=1657842917">
+        </div> 
+        <div class="bbq-conf-img-item">
+            <div class="item-pointer" style="left:23%;
+                top:65%;">
+                
+                
+            </div>
+            <div class="item-pointer" style="left:35%;
+                top:65%;">
+                
+                
+            </div>
+            <div class="item-pointer" style="left:50%;
+                top:65%;">
+                
+                
+            </div>
+            <div class="item-pointer" style="left:64%;
+                top:65%;">
+                
+                
+            </div>
+            <div class="item-pointer" style="left:77%;
+                top:65%;">
+                
+                
+            </div>
+            <img src="https://cdn.shopify.com/s/files/1/0647/3151/3071/files/large.jpg?v=1657842917">
+        </div> 
+    </div>
+</div>
+</div>
+         
+
+         {% schema %} 
+         {
+           "blocks": [
+                         {
+                           "type": "first-section",
+                           "name": "Buttons",
+                           "settings": [
+                                         {
+                                         "id": "view-btn",
+                                         "type": "text",
+                                         "label": "Button name"
+                                         }
+                                       ]
+                          }
+                       ],
+            "presets": [
+                             {
+                             "name": "Cucine slick images",
+                             "category": "Advanced Layout"	
+                             }
+                        ]
+         }
+       {% endschema %}
+
+
+
+       {% style %}
+
+       .bbq-conf-container{
+        background-color:#232323;
+        margin-top:-20px;
+        padding-bottom:2rem;
+       }
+
+       .bbq-conf-size-btn{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+       }
+       .btn--tertiary-cucine{
+        color:white;
+        margin:15px;
+        padding:15px 40px;
+       }
+
+       .btn--tertiary-cucine:hover{
+        color:black;
+        background:white;
+       }
+
+       .bbq-conf-img-item{
+        position:relative;
+       }
+
+
+       .item-pointer{
+        background-color:#FF7063;
+        height:15px;
+        width:15px;
+        border-radius:50%;
+        position:absolute;  
+        cursor:pointer;    
+        -webkit-animation: blink 7s infinite;  
+        -moz-animation: blink 5s infinite;  
+        -o-animation: blink 5s infinite;  
+        animation: blink 7s infinite;  
+        border: 1px solid white;
+       }
+
+       
+
+       @keyframes blink {
+        0%{
+            transform:scale(1.1);
+        }
+        25%{
+            transform:scale(.65);
+        }
+        50%{
+            transform:scale(1.1);
+            }
+        75%{
+            transform:scale(.65);
+             }
+        100%{
+            transform:scale(1.1);
+        }
+       }
+
+       .bbq-conf-img-item img {
+         margin: 0 auto; 
+    }
+
+       {% endstyle %}
+
+
+<script>
+
+    $('.bbq-conf-img').slick({
+        arrows: false,
+        fade: false,
+        slidesToShow: 1,
+        speed:0,
+        centerMode: true,
+        draggable:false,
+        infinite: true
+    });
+
+    $('div[data-slide]').click(function() {
+        var slideno = $(this).data('slide');
+        console.log(slideno)
+        $('.bbq-conf-img').slick('slickGoTo', slideno);
+    });
+        
+</script>

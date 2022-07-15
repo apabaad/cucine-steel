@@ -64,7 +64,7 @@
                 }
                 {% endstyle %}
                 <div id="sf-custom__block--{{ block.id }}" class="sf-custom__block  sf-custom__block--{{ block.type }} flex {{ block_width }} {{ block_width_mobile }} items-{{ vertical_alignment }}" {{ block.shopify_attributes }} style="background-color:{{block.settings.BgColor}}">
-                    <div class="sf-custom__block-inner w-full cucine-hover">
+                    <div class="sf-custom__block-inner w-full {% if template == 'index' %}cucine-hover {% endif %}">
                         {% case block.type %}
                             {% when 'image' %}
                                 {% if block.settings.image != blank %}

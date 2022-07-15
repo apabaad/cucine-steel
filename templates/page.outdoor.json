@@ -41,6 +41,7 @@
     },
     "1657756120cb5130c7": {
       "type": "text-and-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/cucine-1.jpg",
         "image_width": 700,
@@ -57,6 +58,7 @@
     },
     "1657756126c046c63d": {
       "type": "text-and-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/bbq3.jpg",
         "image_width": 700,
@@ -71,6 +73,104 @@
         "divider": false
       }
     },
+    "1657839725e036af89": {
+      "type": "custom-content",
+      "blocks": {
+        "16578397256a7a3117-0": {
+          "type": "text",
+          "settings": {
+            "BgColor": "#232323",
+            "text_padding_top": 40,
+            "text_padding_bottom": 40,
+            "title": "OUTDOOR KITCHENS",
+            "subheading": "",
+            "text": "<p>The comfort of your own kitchen, the freedom of wide-open spaces. Thanks to their modularity, Steel outdoor kitchen can be tailor made around your space and use needs.<\/p>",
+            "width": "50%",
+            "inner_width": 500,
+            "alignment": "center",
+            "horizontal_alignment": "center",
+            "align_text": "left",
+            "text_size": "medium",
+            "text_color": "white",
+            "button_label": "DISCOVER MORE",
+            "button_link": "",
+            "button_style": "sf__btn-primary",
+            "button_color": "sf__btn-black",
+            "mobile_order": "2",
+            "block_custom_class": ""
+          }
+        },
+        "16578397256a7a3117-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cucine-1.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "mobile_order": "1",
+            "block_custom_class": ""
+          }
+        },
+        "40d86baf-291a-463e-bea7-cfe859191fb2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bbq3.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "mobile_order": "3",
+            "block_custom_class": ""
+          }
+        },
+        "00f2482f-fc40-412a-86d5-9ef182bedc64": {
+          "type": "text",
+          "settings": {
+            "BgColor": "#232323",
+            "text_padding_top": 40,
+            "text_padding_bottom": 40,
+            "title": "BARBECUES",
+            "subheading": "",
+            "text": "<p>A new outlook of the barbecue object. A prestigious design, Perfect in each and every detail. An element around which to create a sophisticated and, at the same time, smooth and informal conviviality.<\/p>",
+            "width": "50%",
+            "inner_width": 500,
+            "alignment": "center",
+            "horizontal_alignment": "center",
+            "align_text": "left",
+            "text_size": "medium",
+            "text_color": "white",
+            "button_label": "DISCOVER MORE",
+            "button_link": "",
+            "button_style": "sf__btn-primary",
+            "button_color": "sf__btn-black",
+            "mobile_order": "",
+            "block_custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "16578397256a7a3117-0",
+        "16578397256a7a3117-1",
+        "40d86baf-291a-463e-bea7-cfe859191fb2",
+        "00f2482f-fc40-412a-86d5-9ef182bedc64"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "#232323",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "custom_class": ""
+      }
+    },
+    "1657839989775f0460": {
+      "type": "slick-image",
+      "settings": {
+      }
+    },
     "165775634256eaf819": {
       "type": "slideshow",
       "blocks": {
@@ -83,7 +183,7 @@
             "link": "\/",
             "link_text": "Visit now",
             "text_align": "vertical-center horizontal-right",
-            "title_bg_color": "#000",
+            "title_bg_color": "#000000",
             "title_bg_opacity": 0.5,
             "image": "shopify:\/\/shop_images\/banner_steel_ascot.jpg",
             "overlay_opacity": 0,
@@ -102,6 +202,15 @@
         "autoplay": false,
         "autoplay_speed": 5
       }
+    },
+    "16578402505e4af08b": {
+      "type": "contact-form",
+      "settings": {
+        "title": "Get a quote",
+        "text": "",
+        "show_phone": false,
+        "narrow_column": true
+      }
     }
   },
   "order": [
@@ -109,6 +218,9 @@
     "main",
     "1657756120cb5130c7",
     "1657756126c046c63d",
-    "165775634256eaf819"
+    "1657839725e036af89",
+    "1657839989775f0460",
+    "165775634256eaf819",
+    "16578402505e4af08b"
   ]
 }

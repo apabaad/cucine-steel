@@ -1110,7 +1110,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   transition-duration: 150ms;
 }
 
-.btn,
 .sf__btn {
   border: 1px solid transparent;
   border-radius: 0;
@@ -1124,7 +1123,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 10px 24px;
 }
 
-.btn:hover,
 .sf__btn:hover {
   background: #000 !important;
   border-color: #000 !important;
