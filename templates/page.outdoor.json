@@ -168,6 +168,103 @@
     },
     "1657839989775f0460": {
       "type": "slick-image",
+      "blocks": {
+        "3e45ac62-d5ab-43f8-b0d6-0abedbc39c00": {
+          "type": "first-section",
+          "settings": {
+            "item1-pointer-top": "65",
+            "item1-pointer-left": "39",
+            "item1-card-image": "shopify:\/\/shop_images\/Sink_70cm.jpg",
+            "item1-card-title": "Sink 70cm",
+            "item1-link": "shopify:\/\/products\/swing-90-sinks",
+            "item2-pointer-top": "65",
+            "item2-pointer-left": "29",
+            "item2-card-title": "",
+            "item2-link": "",
+            "item3-pointer-top": "65",
+            "item3-pointer-left": "23",
+            "item3-card-title": "",
+            "item3-link": ""
+          }
+        },
+        "6acdc1ca-2703-4963-99bd-b326a2d12e95": {
+          "type": "first-section",
+          "settings": {
+            "item1-pointer-top": "65",
+            "item1-pointer-left": "50",
+            "item1-card-image": "shopify:\/\/shop_images\/bbq_70.jpg",
+            "item1-card-title": "BBQ 70cm",
+            "item1-link": "",
+            "item2-pointer-top": "65",
+            "item2-pointer-left": "42",
+            "item2-card-title": "",
+            "item2-link": "",
+            "item3-pointer-top": "65",
+            "item3-pointer-left": "35",
+            "item3-card-title": "",
+            "item3-link": ""
+          }
+        },
+        "7eee9ede-fde7-46ac-9e2d-727d67dc4286": {
+          "type": "first-section",
+          "settings": {
+            "item1-pointer-top": "65",
+            "item1-pointer-left": "60",
+            "item1-card-image": "shopify:\/\/shop_images\/Table_70.jpg",
+            "item1-card-title": "Table 70cm",
+            "item1-link": "",
+            "item2-pointer-top": "65",
+            "item2-pointer-left": "55",
+            "item2-card-title": "",
+            "item2-link": "",
+            "item3-pointer-top": "65",
+            "item3-pointer-left": "50",
+            "item3-card-title": "",
+            "item3-link": ""
+          }
+        },
+        "dc71b3bc-044e-4f8b-82d7-e1075b5b7083": {
+          "type": "first-section",
+          "settings": {
+            "item1-pointer-top": "",
+            "item1-pointer-left": "",
+            "item1-card-title": "",
+            "item1-link": "",
+            "item2-pointer-top": "65",
+            "item2-pointer-left": "68",
+            "item2-card-title": "",
+            "item2-link": "",
+            "item3-pointer-top": "65",
+            "item3-pointer-left": "64",
+            "item3-card-title": "",
+            "item3-link": ""
+          }
+        },
+        "e28bfcce-eb96-4e2b-b3b1-37885128c739": {
+          "type": "first-section",
+          "settings": {
+            "item1-pointer-top": "",
+            "item1-pointer-left": "",
+            "item1-card-title": "",
+            "item1-link": "",
+            "item2-pointer-top": "",
+            "item2-pointer-left": "",
+            "item2-card-title": "",
+            "item2-link": "",
+            "item3-pointer-top": "65",
+            "item3-pointer-left": "77",
+            "item3-card-title": "",
+            "item3-link": ""
+          }
+        }
+      },
+      "block_order": [
+        "3e45ac62-d5ab-43f8-b0d6-0abedbc39c00",
+        "6acdc1ca-2703-4963-99bd-b326a2d12e95",
+        "7eee9ede-fde7-46ac-9e2d-727d67dc4286",
+        "dc71b3bc-044e-4f8b-82d7-e1075b5b7083",
+        "e28bfcce-eb96-4e2b-b3b1-37885128c739"
+      ],
       "settings": {
       }
     },
