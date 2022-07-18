@@ -55,13 +55,13 @@
             {% for block in section.blocks %}
                 {% if block.settings.item3-pointer-left and block.settings.item3-pointer-top != blank %}
                 <div class="item-pointer" style="left:{{ block.settings.item3-pointer-left }}%; top:{{ block.settings.item3-pointer-top }}%;">
-                    <div class="item-card">
+                    <div class="item-card" style="margin-left:{{ block.settings.last-pointer-margin }}vw">
                         <div class="item-card-row">
                             <div class="item-image">
                                 <img src="{{block.settings.item3-card-image | img_url: 'master' }}">
                             </div>
                             <div class="item-description">
-                                <h3 class="item-title">{{ block.settings.item3-card-title  }}</h3>
+                                <h3 class="item-title">{{ block.settings.item3-card-title }}</h3>
                                 <a href="{{ block.settings.item3-link }}" target="_blank">PRODUCT DETAIL</a>
                             </div>
                         </div>  
@@ -142,8 +142,8 @@
                                          "label":"Link"
                                          },
                                          {
-                                            "type": "header",
-                                            "content": "3rd Image Pointer"
+                                        "type": "header",
+                                        "content": "3rd Image Pointer"
                                         },
                                          {
                                          "id": "item3-pointer-top",
@@ -169,7 +169,12 @@
                                          "id":"item3-link",
                                          "type":"url",
                                          "label":"Link"
-                                         }
+                                         },
+                                        { 
+                                            "id":"last-pointer-margin",
+                                         "type":"text",
+                                         "label":"Card margin left"
+                                        }
 
                                        ]
                           }
@@ -249,10 +254,10 @@
         cursor:auto;
         position:absolute;
        margin-top:-16vh;
-       margin-left:1.5vh;
+       margin-left:0.7vw;
        z-index:9999;
        border-radius:11px;
-       overflow:visible;
+       overflow:visible !important;
        }
 
        .item-card-row{
