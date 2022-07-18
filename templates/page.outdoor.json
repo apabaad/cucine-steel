@@ -6,9 +6,10 @@
         "16576805563c24c805-1": {
           "type": "image",
           "settings": {
-            "title": "LIFESTYLE",
-            "title_size": 50,
-            "subheading": "OUTDOOR",
+            "title": "OUTDOOR",
+            "title_size": 100,
+            "subheading": "LIFESTYLE",
+            "subheading_size": 90,
             "link": "",
             "link_text": "",
             "text_align": "vertical-bottom horizontal-left",
@@ -142,7 +143,7 @@
             "button_link": "",
             "button_style": "sf__btn-primary",
             "button_color": "sf__btn-black",
-            "mobile_order": "",
+            "mobile_order": "4",
             "block_custom_class": ""
           }
         }
@@ -186,7 +187,8 @@
             "item3-pointer-left": "23",
             "item3-card-image": "shopify:\/\/shop_images\/table_90.png",
             "item3-card-title": "Table 90cm",
-            "item3-link": ""
+            "item3-link": "",
+            "last-pointer-margin": ""
           }
         },
         "6acdc1ca-2703-4963-99bd-b326a2d12e95": {
@@ -206,7 +208,8 @@
             "item3-pointer-left": "35",
             "item3-card-image": "shopify:\/\/shop_images\/bbq_90.png",
             "item3-card-title": "BBQ 90cm",
-            "item3-link": ""
+            "item3-link": "",
+            "last-pointer-margin": ""
           }
         },
         "7eee9ede-fde7-46ac-9e2d-727d67dc4286": {
@@ -226,7 +229,8 @@
             "item3-pointer-left": "50",
             "item3-card-image": "shopify:\/\/shop_images\/cook-unit_90.jpg",
             "item3-card-title": "Cook Unit 90cm",
-            "item3-link": ""
+            "item3-link": "",
+            "last-pointer-margin": ""
           }
         },
         "dc71b3bc-044e-4f8b-82d7-e1075b5b7083": {
@@ -245,7 +249,8 @@
             "item3-pointer-left": "64",
             "item3-card-image": "shopify:\/\/shop_images\/cook-unit_90.jpg",
             "item3-card-title": "Cook Unit 90cm",
-            "item3-link": ""
+            "item3-link": "",
+            "last-pointer-margin": ""
           }
         },
         "e28bfcce-eb96-4e2b-b3b1-37885128c739": {
@@ -263,7 +268,8 @@
             "item3-pointer-left": "77",
             "item3-card-image": "shopify:\/\/shop_images\/frige_90.jpg",
             "item3-card-title": "Fridge 90cm",
-            "item3-link": ""
+            "item3-link": "",
+            "last-pointer-margin": "-20.8"
           }
         }
       },
@@ -286,6 +292,7 @@
             "title": "INDOOR",
             "title_size": 48,
             "subheading": "Go to indoor section",
+            "subheading_size": 60,
             "link": "\/",
             "link_text": "Visit now",
             "text_align": "vertical-center horizontal-right",

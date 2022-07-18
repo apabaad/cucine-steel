@@ -282,6 +282,11 @@
         text-decoration:underline;
        }
 
+       
+       .bbq-conf-img-item img {
+         margin: 0 auto; 
+    }
+
        @keyframes blink {
         0%{
             transform:scale(1.1);
@@ -300,8 +305,19 @@
         }
        }
 
-       .bbq-conf-img-item img {
-         margin: 0 auto; 
+    @media screen and (max-width:992px){
+        
+        .item-pointer{
+       display:none;
+       }
+
+    @media screen and (max-width:600px){
+        
+        .btn--tertiary-cucine{
+        padding:5px;
+       }
+
+
     }
 
        {% endstyle %}
@@ -314,7 +330,6 @@
         fade: false,
         slidesToShow: 1,
         speed:0,
-        centerMode: true,
         draggable:false,
         infinite: true
     });

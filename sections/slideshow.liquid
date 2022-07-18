@@ -131,23 +131,7 @@
                     padding: 20px;
                   }
 
-                  /* added for hero subheading font size */
-
-                  .slideshow__slide--{{ block.id }} .hero__subtitle {
-                  font-size: {{ block.settings.subheading_size | times: 0.5 }}px;
-                  /* margin-bottom:10px; */
-                }
-                @media only screen and (min-width: 769px) {
-                  .slideshow__slide--{{ block.id }} .hero__title {
-                    font-size: {{ block.settings.subheading_size }}px;
-                  }
-                }
-                .slideshow__slide--{{ block.id }} .animation-contents .btn{
-                  padding:8px 16px;
-                  font-size:14px;
-                }
-
-                /* end added */
+                  
 
               {%- endstyle -%}
 
@@ -409,22 +393,14 @@
           "min": 10,
           "max": 100,
           "unit": "px"
-        },
+        }, 
         {
           "type": "text",
           "id": "subheading",
           "label": "t:sections.slideshow.blocks.slide.settings.subheading.label",
           "default": "And an optional subheading"
         },
-        {
-          "type": "range",
-          "id": "subheading_size",
-          "label": "Subheading text size",
-          "default": 80,
-          "min": 20,
-          "max": 100,
-          "unit": "px"
-        },
+       
 
         {
           "type": "url",
