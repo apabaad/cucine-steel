@@ -2044,15 +2044,17 @@ cucine  collection page
 
 .cucine-product-title {
   position: absolute;
-  top: 45%;
-  left: 35%;
+  top: 40%;
+  left: 25%;
   display: none;
   opacity: 1 !important;
   text-align: center;
+  /* margin-left: -25%; */
+  margin-bottom: -50px;
 }
 
 .cucine-product-model {
-  font-size: 32px;
+  font-size: 1.5rem;
   font-weight: 700;
   line-height: 35px;
 }
