@@ -63,8 +63,14 @@
   <div class="page-content page-width" id="product-overview">
 
       <div style="margin-bottom:50px;">
+
+      {% if product.metafields.custom.model == blank %}
+      <span class="cucine-product-model" style="margin-left:10%; font-size:1.5rem;">{{ product.title }}</span><br/>
+      {% else %}
       <span class="cucine-product-model" style="margin-left:10%; font-size:3rem;">{{ product.metafields.custom.model }}</span><br/>
       <span class="cucine-product-collection" style="margin-left:10%;">{{ product.metafields.custom.collection }}</span>
+      {% endif %}
+
       </div>
 
       {%- if settings.show_breadcrumbs and isModal != true -%}

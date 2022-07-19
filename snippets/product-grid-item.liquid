@@ -98,6 +98,11 @@
             
           </div>
           <div class="cucine-product-title">
+            
+            {% if product.metafields.custom.model == blank %}
+              <span class="cucine-product-model" style="margin-left:10%; font-size:1.5rem;">{{ product.title | truncatewords: 2, "" }}</span><br/>
+            {% endif %}
+
             <span class="cucine-product-model"> {{ product.metafields.custom.model | upcase }}</span> <br>
             <span class="cucine-product-collection"> {{ product.metafields.custom.collection | upcase }} </span>
            </div>
