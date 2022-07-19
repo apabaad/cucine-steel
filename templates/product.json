@@ -41,6 +41,12 @@
           "settings": {
           }
         },
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -87,13 +93,6 @@
             "surface_pickup_enable": true
           }
         },
-        "description": {
-          "type": "description",
-          "disabled": true,
-          "settings": {
-            "is_tab": false
-          }
-        },
         "tab": {
           "type": "tab",
           "disabled": true,
@@ -137,13 +136,13 @@
       },
       "block_order": [
         "price",
+        "description",
         "variant_picker",
         "d24a80da-9a82-4a64-ad4c-73aef4e07900",
         "3aed184a-5ec4-447b-acf4-3aa11c27a1bd",
         "sales_point",
         "inventory_status",
         "buy_buttons",
-        "description",
         "tab",
         "separator",
         "7d5ba1dd-b1b6-490b-8f6c-d48dcd9fca53",
@@ -185,6 +184,7 @@
     },
     "1655372404eeb81c88": {
       "type": "metafield-content",
+      "disabled": true,
       "blocks": {
         "eb3ea5d7-216c-46ce-9990-1260ed53bc99": {
           "type": "overview",
