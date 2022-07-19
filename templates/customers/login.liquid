@@ -12,13 +12,12 @@
       </div>
 
       <div id="CustomerLoginForm" class="form-vertical">
-       
         {% form 'customer_login' %}
 
           {{ form.errors | default_errors }}
 
           <label for="CustomerEmail">{{ 'customer.login.email' | t }}</label>
-          <input type="email" required placeholder="{{ 'customer.login.email' | t }}" name="customer[email]" id="CustomerEmail" class="email-field input-full{% if form.errors contains 'email' %} error{% endif %}" autocorrect="off" autocapitalize="off" autofocus>
+          <input required placeholder="john.doe@email.com" type="email" name="customer[email]" id="CustomerEmail" class="input-full{% if form.errors contains 'email' %} error{% endif %}" autocorrect="off" autocapitalize="off" autofocus>
 
           {% if form.password_needed %}
           <div class="grid">
@@ -33,12 +32,11 @@
               </small>
             </div>
           </div>
-          <input required type="password" value="" name="customer[password]" placeholder="{{ 'customer.login.password' | t }}" id="CustomerPassword" class="input-full{% if form.errors contains 'password' %} error{% endif %}">
+          <input placeholder="********" required type="password" value="" name="customer[password]" id="CustomerPassword" class="input-full{% if form.errors contains 'password' %} error{% endif %}">
           {% endif %}
 
           <p>
-            <button type="button" class="btn btn--full btn--no-animate button_login">{{ 'customer.login.sign_in' | t }}</button>
-            <!-- <input type="submit" class="btn btn--full btn--no-animate" value="{{ 'customer.login.sign_in' | t }}"> -->
+            <input type="submit" class="btn btn--full btn--no-animate" value="{{ 'customer.login.sign_in' | t }}">
           </p>
           <p>{{ 'layout.customer.create_account' | t | customer_register_link }}</p>
 
@@ -61,7 +59,7 @@
             {% endif %}
 
             <label for="RecoverEmail">{{ 'customer.recover_password.email' | t }}</label>
-            <input type="email" value="" placeholder="{{ 'customer.recover_password.email' | t }}" name="email" id="RecoverEmail" class="input-full" autocorrect="off" autocapitalize="off">
+            <input type="email" value="" name="email" id="RecoverEmail" class="input-full" autocorrect="off" autocapitalize="off">
 
             <p>
               <input type="submit" class="btn" value="{{ 'customer.recover_password.submit' | t }}">

@@ -1,5 +1,11 @@
 {
   "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
     "1657680556d5284aae": {
       "type": "slideshow",
       "blocks": {
@@ -7,9 +13,8 @@
           "type": "image",
           "settings": {
             "title": "OUTDOOR",
-            "title_size": 100,
-            "subheading": "LIFESTYLE",
-            "subheading_size": 90,
+            "title_size": 80,
+            "subheading": "",
             "link": "",
             "link_text": "",
             "text_align": "vertical-bottom horizontal-left",
@@ -34,46 +39,6 @@
         "autoplay_speed": 5
       }
     },
-    "main": {
-      "type": "main-page",
-      "disabled": true,
-      "settings": {
-      }
-    },
-    "1657756120cb5130c7": {
-      "type": "text-and-image",
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/cucine-1.jpg",
-        "image_width": 700,
-        "subtitle": "",
-        "title": "OUTDOOR KITCHENS",
-        "text": "<p>The comfort of your own kitchen, the freedom of wide-open spaces. Thanks to their modularity, Steel outdoor kitchen can be tailor made around your space and use needs.<\/p>",
-        "button_label": "DISCOVER MORE",
-        "button_link": "",
-        "button_style": "primary",
-        "align_text": "left",
-        "layout": "right",
-        "divider": false
-      }
-    },
-    "1657756126c046c63d": {
-      "type": "text-and-image",
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/bbq3.jpg",
-        "image_width": 700,
-        "subtitle": "",
-        "title": "BARBECUES",
-        "text": "<p>A new outlook of the barbecue object. A prestigious design, Perfect in each and every detail. An element around which to create a sophisticated and, at the same time, smooth and informal conviviality.<\/p>",
-        "button_label": "DISCOVER MORE",
-        "button_link": "",
-        "button_style": "primary",
-        "align_text": "left",
-        "layout": "left",
-        "divider": false
-      }
-    },
     "1657839725e036af89": {
       "type": "custom-content",
       "blocks": {
@@ -94,7 +59,7 @@
             "text_size": "medium",
             "text_color": "white",
             "button_label": "DISCOVER MORE",
-            "button_link": "",
+            "button_link": "shopify:\/\/pages\/outdoor-kitchens",
             "button_style": "sf__btn-primary",
             "button_color": "sf__btn-black",
             "mobile_order": "2",
@@ -105,7 +70,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/cucine-1.jpg",
-            "link": "",
+            "link": "shopify:\/\/pages\/outdoor-kitchens",
             "width": "50%",
             "alignment": "center",
             "mobile_order": "1",
@@ -116,7 +81,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/bbq3.jpg",
-            "link": "",
+            "link": "shopify:\/\/collections\/bbq-outdoor",
             "width": "50%",
             "alignment": "center",
             "mobile_order": "3",
@@ -140,7 +105,7 @@
             "text_size": "medium",
             "text_color": "white",
             "button_label": "DISCOVER MORE",
-            "button_link": "",
+            "button_link": "shopify:\/\/collections\/bbq-outdoor",
             "button_style": "sf__btn-primary",
             "button_color": "sf__btn-black",
             "mobile_order": "4",
@@ -292,7 +257,6 @@
             "title": "INDOOR",
             "title_size": 48,
             "subheading": "Go to indoor section",
-            "subheading_size": 60,
             "link": "\/",
             "link_text": "Visit now",
             "text_align": "vertical-center horizontal-right",
@@ -327,10 +291,8 @@
     }
   },
   "order": [
-    "1657680556d5284aae",
     "main",
-    "1657756120cb5130c7",
-    "1657756126c046c63d",
+    "1657680556d5284aae",
     "1657839725e036af89",
     "1657839989775f0460",
     "165775634256eaf819",

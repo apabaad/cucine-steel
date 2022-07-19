@@ -2089,20 +2089,5 @@ cucine  collection page
   max-width: 490px !important;
 }
 
-/* @media screen and (min-width: 1200px) {
-  .page-width-cucine-product {
-    width: 1338px !important;
-  }
+.cucine-collection-callout {
 }
-
-@media screen and (min-width: 992px) {
-  .page-width-cucine-product {
-    width: 970px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .page-width-cucine-product {
-    width: 750px;
-  }
-} */

@@ -18,7 +18,8 @@
         bottom: 6px;
       }
       {% endstyle %}
-      <!-- <script>
+      
+      {% comment %} <script>
         $(document).ready(function() {
       $("#{{form_id}}").validate({
       rules: {
@@ -29,7 +30,7 @@
       }
       });
       });
-      </script> -->
+      </script> {% endcomment %}
 
       {%- form 'contact', id: form_id -%}
 
