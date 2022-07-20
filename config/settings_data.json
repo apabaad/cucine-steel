@@ -80,15 +80,13 @@
         "blocks": {
           "95a0559c-388e-4ecb-8f6c-358ddd18e422": {
             "type": "megamenu",
-            "disabled": true,
             "settings": {
               "menu_item": "Products",
-              "promo_image_1": "shopify:\/\/shop_images\/Chocolate-mud-cake.jpg",
-              "promo_heading_1": "Appliances",
+              "promo_image_1": "shopify:\/\/shop_images\/large.jpg",
+              "promo_heading_1": "OUTDOOR",
               "promo_text_1": "",
-              "promo_url_1": "",
-              "promo_image_2": "shopify:\/\/shop_images\/Steel-Homepage-History.jpg",
-              "promo_heading_2": "Get your favourite products",
+              "promo_url_1": "shopify:\/\/pages\/outdoor",
+              "promo_heading_2": "",
               "promo_text_2": "",
               "promo_url_2": ""
             }

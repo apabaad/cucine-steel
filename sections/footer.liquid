@@ -137,13 +137,13 @@
       <div class="footer__copyright site-footer__bottom-block">
         {%- if section.settings.show_copyright -%}
           <span>
-            &copy; {{ 'now' | date: '%Y' }} {{ shop.name }}
+            &copy; {{ 'now' | date: '%Y' }}  Arisit Pty. Limited ABN: 23 091 515 294
             {%- if section.settings.copyright_text != blank -%}
               {{ section.settings.copyright_text }}
             {%- endif -%}
           </span>
         {%- endif -%}
-        <span class="footer__powered_by">{{ powered_by_link }}</span>
+        {% comment %} <span class="footer__powered_by">{{ powered_by_link }}</span> {% endcomment %}
       </div>
     </div>
 
