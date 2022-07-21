@@ -60,7 +60,7 @@
         "1656973784a8e56a8f-1": {
           "type": "liquid",
           "settings": {
-            "code": "{{collection.metafields.custom.description}}",
+            "code": "{% if collection.metafields.custom.description != blank %}\n\n{{collection.metafields.custom.description}}\n\n{% else %}\n<h2 style=\"font-weight:bold; margin-bottom:-250px !important\" >{{ collection.title }}<\/h2>\n<p>{{collection.description}}<\/p>\n{% endif %}",
             "width": "100%",
             "alignment": "center"
           }
