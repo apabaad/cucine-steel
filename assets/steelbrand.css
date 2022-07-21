@@ -2042,21 +2042,12 @@ cucine  collection page
   transition: 0.5s ease;
 }
 
-.cucine-product-title {
-  position: absolute;
-  top: 40%;
-  left: 25%;
+.cucine-product-title .image-card__content-inner {
   display: none;
-  opacity: 1 !important;
-  text-align: center;
-  /* margin-left: -25%; */
-  margin-bottom: -50px;
 }
 
 .cucine-product-model {
-  font-size: 1.5rem;
-  font-weight: 700;
-  line-height: 35px;
+  line-height: 21px;
 }
 
 .cucine-product-collection {
@@ -2065,7 +2056,7 @@ cucine  collection page
   line-height: 21px;
 }
 
-.grid-product__link:hover .cucine-product-title {
+.grid-product__content:hover .image-card__content-inner {
   display: block;
 }
 
@@ -2075,10 +2066,6 @@ cucine  collection page
 
 .cucine-product-title:hover .cucine-product-image {
   opacity: 0.3;
-}
-
-.grid-view-cucine {
-  /* margin-left: 10% !important; */
 }
 
 .product-image-main--cucine {
@@ -2091,5 +2078,6 @@ cucine  collection page
   max-width: 490px !important;
 }
 
-.cucine-collection-callout {
+.grid__item {
+  padding-left: 0 !important;
 }

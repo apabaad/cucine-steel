@@ -97,15 +97,7 @@
             </noscript>
             
           </div>
-          <div class="cucine-product-title">
-            
-            {% if product.metafields.custom.model == blank %}
-            <span class="cucine-product-model" style="margin-left:10%; ">{{ product.title | truncatewords: 2, "" }}</span><br/>
-            {% else %}
-            <span class="cucine-product-model"> {{ product.metafields.custom.model | upcase }}</span> <br>
-            <span class="cucine-product-collection"> {{ product.metafields.custom.collection | upcase }} </span>
-          {% endif %}
-           </div>
+         
         {%- endif -%}
 
         {%- if settings.product_hover_image and product.images.size > 1 -%}
@@ -127,6 +119,17 @@
       
     </a>
 
+    <div class="cucine-product-title image-card__content flex z-10  pointer-events-none absolute p-5 sm:p-10 inset-0 items-center justify-center">
+      <div class="image-card__content-inner  !text-center">
+
+        {% if product.metafields.custom.model == blank %}
+          <span class="cucine-product-model text-xl sm:text-2xl md:text-3xl  mb-4">{{ product.title | truncatewords: 2, "" }}</span><br/>
+          {% else %}
+          <span class="cucine-product-model text-xl sm:text-2xl md:text-3xl  mb-4"> {{ product.metafields.custom.model | upcase }}</span> <br>
+          <span class="cucine-product-collection text-xl sm:text-2xl md:text-3xl  mb-4"> {{ product.metafields.custom.collection | upcase }} </span>
+        {% endif %}
+    </div>
+    </div>
     
     {% comment %} 
     add to cart / read more commented 
