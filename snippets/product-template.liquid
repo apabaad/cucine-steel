@@ -67,8 +67,8 @@
       {% if product.metafields.custom.model == blank %}
       <span class="cucine-product-model" style="margin-left:10%; font-size:1.5rem;">{{ product.title }}</span><br/>
       {% else %}
-      <span class="cucine-product-model" style="margin-left:10%; font-size:3rem;">{{ product.metafields.custom.model }}</span><br/>
-      <span class="cucine-product-collection" style="margin-left:10%;">{{ product.metafields.custom.collection }}</span>
+      <span class="cucine-product-model" style="font-size:2rem;">{{ product.metafields.custom.model }}</span><br/>
+      <span class="cucine-product-collection" style="">{{ product.metafields.custom.collection }}</span>
       {% endif %}
 
       </div>
@@ -77,6 +77,7 @@
         {%- render 'breadcrumbs' -%}
       {%- endif -%}
 
+      {% comment %} <div class="cucine-product-info flex" > {% endcomment %}
       <div class="grid-view grid-view-cucine">
         
         <div class="grid__item {{ product_image_width }} product-single__sticky">
@@ -404,4 +405,5 @@
         </div>
       </div>
     </div>
+  </div>
 </div>

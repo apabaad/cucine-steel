@@ -2074,10 +2074,14 @@ cucine  collection page
 }
 
 .cucine-product-image-size {
-  max-height: 490px !important;
-  max-width: 490px !important;
+  /* max-height: 490px !important; */
+  /* max-width: 490px !important; */
 }
 
 .grid__item {
   padding-left: 0 !important;
 }
+/* 
+.grid-view-cucine {
+  margin: auto !important;
+} */
