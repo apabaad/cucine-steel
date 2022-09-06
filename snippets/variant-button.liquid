@@ -210,6 +210,48 @@
         </div>
       </div>
 
+      {% elsif  value == "6T"%}
+
+      <div class="cooktop-6t flex" id="cooktop-6t">
+      <label 
+        
+        style = "background-image:url(
+          {{ product.metafields.custom.cooktop_6t | img_url:"master" }}
+        )"
+        title = "{{ value | escape }}" 
+        for="ProductSelect-{{ section_id }}-{{ product.id }}-option-{{ option.name | handleize }}-{{ value | url_encode }}" 
+        class="label-bg-img-6T--cooktop" id="label-bg-img-6T--cooktop"
+        {% unless product_available %} class="disabled"{% endunless %}
+        onclick="Cooktop6TBackground()"
+      >
+      </label>
+      <div class="cooktop-description">
+      <strong> {{ value | escape }}</strong><br/>
+      <span> {{ product.metafields.custom.description_6t }} </span>
+    </div>
+  </div>
+
+  {% elsif  value == "6M"%}
+
+      <div class="cooktop-6m flex" id="cooktop-6m">
+      <label 
+        
+        style = "background-image:url(
+          {{ product.metafields.custom.cooktop_6m | img_url:"master" }}
+        )"
+        title = "{{ value | escape }}" 
+        for="ProductSelect-{{ section_id }}-{{ product.id }}-option-{{ option.name | handleize }}-{{ value | url_encode }}" 
+        class="label-bg-img-6T--cooktop" id="label-bg-img-6M--cooktop"
+        {% unless product_available %} class="disabled"{% endunless %}
+        onclick="Cooktop6MBackground()"
+      >
+      </label>
+      <div class="cooktop-description">
+      <strong> {{ value | escape }}</strong><br/>
+      <span> {{ product.metafields.custom.description_6m }} </span>
+    </div>
+  </div>
+
         {%- endif -%}
       </div>
         {%- endif -%}
@@ -247,6 +289,20 @@
   background-repeat: no-repeat;
   }
 
+  .label-bg-img-6T--cooktop{
+    width: 150px;
+  height: 110px;
+    background-repeat: no-repeat;
+  }
+
+  .cooktop-6t, .cooktop-6m{
+    height:110px;
+  }
+
+  .cooktop-5fi, .cooktop-6w{
+    height:150px;
+  }
+
   .cooktop-description{
   max-width: 250px;
   height: 150px;
@@ -282,9 +338,23 @@ var Cooktop5FIBackground = () => {
   document.getElementById("cooktop-5fi").classList.add('cooktop-focusable');
   document.getElementById("cooktop-6w").classList.remove('cooktop-focusable');
 }
+
 var Cooktop6WBackground = () => {
   document.getElementById("cooktop-6w").classList.add('cooktop-focusable');
   document.getElementById("cooktop-5fi").classList.remove('cooktop-focusable');
 }
+
+var Cooktop6MBackground = () => {
+  document.getElementById("cooktop-6m").classList.add('cooktop-focusable');
+  document.getElementById("cooktop-6t").classList.remove('cooktop-focusable');
+}
+
+var Cooktop6TBackground = () => {
+  document.getElementById("cooktop-6t").classList.add('cooktop-focusable');
+  document.getElementById("cooktop-6m").classList.remove('cooktop-focusable');
+
+}
+
+
 
 </script>
