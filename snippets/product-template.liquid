@@ -67,7 +67,7 @@
       {% if product.metafields.custom.model == blank %}
       <span class="cucine-product-model" style="margin-left:10%; font-size:1.5rem;">{{ product.title }}</span><br/>
       {% else %}
-      <span class="cucine-product-model" style="font-size:2rem;">{{ product.metafields.custom.model }}</span><br/>
+     <strong> <span class="cucine-product-model" style="font-size:2rem;">{{ product.metafields.custom.model }}</span><br/></strong>
       <span class="cucine-product-collection" style="">{{ product.metafields.custom.collection }}</span>
       {% endif %}
 

@@ -1,0 +1,63 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "1662440048c9bf3f64": {
+      "type": "text-and-image",
+      "disabled": true,
+      "settings": {
+        "image_width": 700,
+        "subtitle": "",
+        "title": "Image with text",
+        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "16624400676a0a2a90": {
+      "type": "slideshow",
+      "blocks": {
+        "1662440067226a0086-0": {
+          "type": "image",
+          "settings": {
+            "title": "Outdoor products coming soon...",
+            "title_size": 37,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "text_align": "vertical-center horizontal-left",
+            "title_bg_color": "#1c1d1d",
+            "title_bg_opacity": 0.5,
+            "image": "shopify:\/\/shop_images\/Outdoor-intera_ab50c856-3017-4b55-947f-66ba6cf0fc51.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "1662440067226a0086-0"
+      ],
+      "settings": {
+        "section_height": "100vh",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1662440048c9bf3f64",
+    "16624400676a0a2a90"
+  ]
+}
