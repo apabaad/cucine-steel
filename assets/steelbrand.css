@@ -2085,3 +2085,13 @@ cucine  collection page
 .grid-view-cucine {
   margin: auto !important;
 } */
+
+.white-trim {
+  margin-left: 20px;
+}
+
+#shopify-section-template--16481865761007__16641590372d8b6369 h2 {
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}

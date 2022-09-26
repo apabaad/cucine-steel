@@ -6,9 +6,64 @@
       "settings": {
       }
     },
-    "1662616600627d5c47": {
-      "type": "features-page",
+    "166415868236154849": {
+      "type": "how-built",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "16641590372d8b6369": {
+      "type": "rich-text",
+      "blocks": {
+        "166415903770c83674-0": {
+          "type": "heading",
+          "settings": {
+            "title": "ASCOT & GENESI COOKER FEATURES"
+          }
+        },
+        "166415903770c83674-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Our Ascot & Genesi combi steam ovens are well-equipped as standard: professional wire shelf racks, an enamelled baking sheet, a stainless steel baking sheet – all safely and easily extractable via telescopic runners. A trivet for roasting, a temperature probe, motorised rotisserie, and removable side panels, which can be dishwasher-cleaned. In addition, there is a long list of further accessories aimed at personalisation of your oven in line with your cooking preferences: e.g. the wire shelf for steam cooking, a refractory pizza stone in a stainless steel support tray together with a peel (pizza spatula). Meeting the highest safety requirements of their category, the oven door features not only a cool unbreakable triple glass, but also a sophisticated cushioning mechanism for elegant closing and opening with anti-tilt system.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "166415903770c83674-0",
+        "166415903770c83674-1"
+      ],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": false,
+        "divider": false
+      }
+    },
+    "16636387553dc7349b": {
+      "type": "rich-text",
+      "blocks": {
+        "1663638755f12c0761-0": {
+          "type": "heading",
+          "settings": {
+            "title": "How it's built"
+          }
+        },
+        "1663638755f12c0761-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>On average, a STEEL cooker is 30% heavier than the competitors on the market. Made of solid construction, including solid metal knobs, metal-built body, Heavy cast iron griddles and solid metal handles. STEEL cookers use highest grade insulation, in double the standard industry thickness. This keeps the heat inside the cooker, meaning the power consumed is effective in heating the oven rather than the surrounding atmosphere. It also means STEEL cookers have 4cm thick sides with zero clearance to cabinetry, no gaps that encourage kitchen grease and grime build up. These gaps are nearly impossible to clean without removing the whole cooker.<br\/>The insulation also assists in the longevity of the oven’s elements. More consistent heat means the elements no longer must turn on and off continuously to keep the selected temperature. This extends the life of the elements. Keeping the oven temperature consistent is also achieved by the cool touch doors.<br\/>They are made commercial grade materials where possible. From the 6mm glass on the oven’s doors, to the 6mm thick oven racking system, STEEL cuts no corners in quality.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1663638755f12c0761-0",
+        "1663638755f12c0761-1"
+      ],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": false,
+        "divider": false
       }
     },
     "166296336604130617": {
@@ -17,7 +72,7 @@
         "image": "shopify:\/\/shop_images\/BRASS_BURNER_n.jpg",
         "image_width": 570,
         "subtitle": "",
-        "title": "BRASS BURNERS",
+        "title": "Brass Burners",
         "text": "<p>STEEL has developed and designed with Sabaf, the largest and renown manufacturer of gas burners, its own burner design. The STEEL brass burners rings are made completely of brass, the burner caps are coated in of VERY high-quality enamel. The STEEL burners boast a 60% efficiency, compared to the industry standard of 50%. STEEL brass mega wok is 6kW.<\/p>",
         "button_label": "",
         "button_link": "",
@@ -30,9 +85,10 @@
     "1662963473e05dd687": {
       "type": "text-and-image",
       "settings": {
+        "image": "shopify:\/\/shop_images\/ENFASI_INDUCTION_HOB.jpg",
         "image_width": 700,
         "subtitle": "",
-        "title": "INDUCTION HOB",
+        "title": "Induction Hob",
         "text": "<p>The new Steel induction cooktops feature a rectangular zone with flex induction, which automatically detects the shape and size of the cookware used and adjusts the heated zones accordingly. Frontal control knobs allow maximum utilisation of the cooking zones.<\/p>",
         "button_label": "",
         "button_link": "",
@@ -48,7 +104,7 @@
         "image": "shopify:\/\/shop_images\/TFT_CONTROL.jpg",
         "image_width": 700,
         "subtitle": "",
-        "title": "TFT CONTROLS",
+        "title": "TFT Controls",
         "text": "<p>Easy to use, clear large text and easy to programme. Controlled by the knobs on the front so the screen always stays clear.<\/p>",
         "button_label": "",
         "button_link": "",
@@ -63,7 +119,7 @@
       "settings": {
         "image_width": 700,
         "subtitle": "",
-        "title": "TEMPERATURE PROBE",
+        "title": "Temperature Probe",
         "text": "<p>New design, precision probe. Not just for meat, with 4 sensors, this probe is sensitive enough to be used for cakes, steaming, meats, and baking. Accurate to 2 degrees.<\/p>",
         "button_label": "",
         "button_link": "",
@@ -79,7 +135,7 @@
         "image": "shopify:\/\/shop_images\/INNVENT_FAN_SYSTEM.jpg",
         "image_width": 700,
         "subtitle": "PATENTED",
-        "title": "INVENT TWIN FAN SYSTEM",
+        "title": "INNVENT Twin Fan System",
         "text": "<p>The new anniversary range features a STEEL patented twin fan system. This system has two counter rotating fans that draw air in behind the rear oven panel and distribute it back into the oven using a perimetrical air flow for the ultimate in even cooking.<\/p>",
         "button_label": "",
         "button_link": "",
@@ -92,10 +148,10 @@
     "16629636615655a7ae": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/COMMERCIAL_OVEN_FITTINGS.jpg",
+        "image": "shopify:\/\/shop_images\/COMMERCIAL_TRAYS_LINERS_AND_RACKS.jpg",
         "image_width": 700,
         "subtitle": "TELESCOPIC RACKS",
-        "title": "COMMERCIAL STYLE OVEN FITTINGS",
+        "title": "Commercial Style Oven Fittings",
         "text": "<p>Anniversary range cookers feature the new heavy duty commercial grade trays, liners and telescopic racks that will never bow or twist even when using cast iron pans and trays. Made from easy to clean, high grade, 6mm thick 304 grade stainless steel.<\/p>",
         "button_label": "",
         "button_link": "",
@@ -108,9 +164,10 @@
     "166296398742108085": {
       "type": "text-and-image",
       "settings": {
+        "image": "shopify:\/\/shop_images\/ENFASI-INDUCTION_E9F_-Hi-res_1.jpg",
         "image_width": 700,
         "subtitle": "SOFT & SILENT CLOSE",
-        "title": "COOL TOUCH DOORS",
+        "title": "Cool Touch Doors",
         "text": "<p>NEW STEEL cookers are fitted with Soft & silent closing hinges. 20% cooler oven door temperature. 3 solid glass panel in up to 6mm thickness, creates a cool zone between the oven heat, and the outside temperature. Very important for little helping hands in the kitchen.<\/p>",
         "button_label": "",
         "button_link": "",
@@ -126,7 +183,7 @@
         "image": "shopify:\/\/shop_images\/COMMERCIAL_OVEN_FITTINGS.jpg",
         "image_width": 700,
         "subtitle": "",
-        "title": "DYNAMIC OVEN LIGHTING",
+        "title": "Dynamic Oven Lighting",
         "text": "<p>3 internal oven lamps strategically located to give clear and crisp internal lighting. Easy to check the progress during cooking without opening the door.<\/p>",
         "button_label": "",
         "button_link": "",
@@ -139,9 +196,10 @@
     "1662964003a53719b3": {
       "type": "text-and-image",
       "settings": {
+        "image": "shopify:\/\/shop_images\/GENESI_FASCIA.jpg",
         "image_width": 700,
         "subtitle": "GENESI",
-        "title": "ANGLED CONTROL FASCIA",
+        "title": "Angled Control Fascia",
         "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
         "button_label": "",
         "button_link": "",
@@ -154,9 +212,10 @@
     "166296399425a89a1c": {
       "type": "text-and-image",
       "settings": {
+        "image": "shopify:\/\/shop_images\/NEW_GENESI_HANDLE_DESIGN.jpg",
         "image_width": 700,
         "subtitle": "GENESI",
-        "title": "NEW HANDLE DESIGN",
+        "title": "New Handle Design",
         "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
         "button_label": "",
         "button_link": "",
@@ -171,7 +230,7 @@
       "settings": {
         "image_width": 700,
         "subtitle": "",
-        "title": "HIGHEST ‘SPECIFIC POWER’ - TBC",
+        "title": "Highest ‘specific Power’  - TBC",
         "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
         "button_label": "",
         "button_link": "",
@@ -186,7 +245,7 @@
       "settings": {
         "image_width": 700,
         "subtitle": "",
-        "title": "POWER GRILL –STEEL",
+        "title": "Power Grill –Steel",
         "text": "<p>Power Grill is the one of the most powerful on the market. A huge 2.87kW grill element in an extra-wide format means super quick heat up, and even browning of large dishes.<\/p>",
         "button_label": "",
         "button_link": "",
@@ -199,9 +258,10 @@
     "16629642975d0a7374": {
       "type": "text-and-image",
       "settings": {
-        "image_width": 700,
+        "image": "shopify:\/\/shop_images\/ONE_PIECE_EASY_CLEAN_HOB.jpg",
+        "image_width": 530,
         "subtitle": "",
-        "title": "EASY CLEAN HOB",
+        "title": "Easy Clean Hob",
         "text": "<p>STEEL gas cookers feature a fully moulded one-piece embossed 441 grade stainless hob. Why? No exposed screws to accumulate grime and dirt. Making the STEEL hob easy to clean. The 441 Grade stainless is resistant to scratching and discolouration.<\/p>",
         "button_label": "",
         "button_link": "",
@@ -216,7 +276,7 @@
       "settings": {
         "image_width": 700,
         "subtitle": "",
-        "title": "OVEN TIMER PROGRAMMING",
+        "title": "Oven Timer Programming",
         "text": "<p>The oven controls allow for programming the start time, cooking duration time, and end time (example – to be ready at 6 p.m, for 2 hours cooking time, the oven will automatically start at 4 p.m.) and you can delay the start time also (example - oven to start at 5pm).<\/p>",
         "button_label": "",
         "button_link": "",
@@ -248,9 +308,10 @@
     "1662616835b77768d3": {
       "type": "text-and-image",
       "settings": {
+        "image": "shopify:\/\/shop_images\/PIZZA_TRAY_OVEN_OPEN.jpg",
         "image_width": 700,
         "subtitle": "",
-        "title": "PIZZA TRAY ACCESSORY",
+        "title": "Pizza Tray Accessory",
         "text": "<p>The custom designed refractory stone is incorporated into the highest grade 6mm stainless steel oven tray, making it easy to use. The high-grade ceramic plate retains the heat required to make crispy pizza base and the results are always perfect. Best of all, it can be stored in the drawer system of the cooker when not in use.<\/p>",
         "button_label": "",
         "button_link": "",
@@ -267,7 +328,7 @@
         "image_width": 390,
         "subtitle": "",
         "title": "BBQ Plate",
-        "text": "<p>Text goes here.... text goes here... <\/p>",
+        "text": "",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
@@ -282,8 +343,40 @@
         "image": "shopify:\/\/shop_images\/CAST_TEPP_ACCESSORY.jpg",
         "image_width": 390,
         "subtitle": "",
-        "title": "TEPPANYAKI PLATE",
+        "title": "Teppanyaki Plate",
         "text": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
+        "divider": false
+      }
+    },
+    "166363945924c24c26": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Smoker.jpg",
+        "image_width": 500,
+        "subtitle": "",
+        "title": "Smoking Basin",
+        "text": "<p>Compatible with: Green, Swing<\/p><p>Model name: AB-KA<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "1663639746868d941c": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Coal-BBQ-Insert-in-placement.jpg",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "Carbon Basin",
+        "text": "<p>Compatible with: Green, Swing<\/p><p>Model name: AB-KC<\/p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
@@ -295,7 +388,9 @@
   },
   "order": [
     "main",
-    "1662616600627d5c47",
+    "166415868236154849",
+    "16641590372d8b6369",
+    "16636387553dc7349b",
     "166296336604130617",
     "1662963473e05dd687",
     "166296350955f6c655",
@@ -313,6 +408,8 @@
     "1662964390e050b0fc",
     "1662616835b77768d3",
     "16626166150c2a55e0",
-    "16626166226163292d"
+    "16626166226163292d",
+    "166363945924c24c26",
+    "1663639746868d941c"
   ]
 }

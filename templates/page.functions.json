@@ -1,0 +1,19 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "166415709285529c0c": {
+      "type": "features-page",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "166415709285529c0c"
+  ]
+}

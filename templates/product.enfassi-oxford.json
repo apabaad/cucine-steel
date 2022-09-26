@@ -14,9 +14,9 @@
             "text_align": "vertical-bottom horizontal-left",
             "title_bg_color": "#000000",
             "title_bg_opacity": 0.5,
-            "image": "shopify:\/\/shop_images\/banner_steel_ascot.jpg",
+            "image": "{{ product.metafields.custom.banner_image.value }}",
             "overlay_opacity": 0,
-            "focal_point": "top center"
+            "focal_point": "center center"
           }
         }
       },
@@ -24,7 +24,7 @@
         "16571595990b278f71-0"
       ],
       "settings": {
-        "section_height": "550px",
+        "section_height": "650px",
         "mobile_height": "auto",
         "parallax": false,
         "style": "arrows",

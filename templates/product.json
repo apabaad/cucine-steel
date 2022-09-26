@@ -1,5 +1,37 @@
 {
   "sections": {
+    "16631335663fa49a40": {
+      "type": "custom-content",
+      "disabled": true,
+      "blocks": {
+        "1663133566a4ea467b-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/GENESI_GQ10SF-6W_LIFESTYLE.jpg",
+            "link": "",
+            "width": "100%",
+            "alignment": "center",
+            "mobile_order": "",
+            "block_custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "1663133566a4ea467b-1"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "w-full",
+        "background_color": "",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "custom_class": ""
+      }
+    },
     "1657159600dfe37b15": {
       "type": "slideshow",
       "blocks": {
@@ -14,9 +46,9 @@
             "text_align": "vertical-bottom horizontal-left",
             "title_bg_color": "#000000",
             "title_bg_opacity": 0.5,
-            "image": "shopify:\/\/shop_images\/banner_steel_ascot.jpg",
+            "image": "{{ product.metafields.custom.banner_image.value }}",
             "overlay_opacity": 0,
-            "focal_point": "top center"
+            "focal_point": "20% 50%"
           }
         }
       },
@@ -237,6 +269,7 @@
     }
   },
   "order": [
+    "16631335663fa49a40",
     "1657159600dfe37b15",
     "main",
     "165715069135e58c2b",
