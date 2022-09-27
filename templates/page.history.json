@@ -6,8 +6,118 @@
       "settings": {
       }
     },
+    "166423617123a69e8b": {
+      "type": "custom-content",
+      "blocks": {
+        "1664236171e344bb43-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AngeloPo_b5391b53-79ef-405f-9af3-415864643668.jpg",
+            "link": "",
+            "width": "33%",
+            "alignment": "center",
+            "mobile_order": "",
+            "block_custom_class": ""
+          }
+        },
+        "5890bb78-610f-4f3f-bd81-a1f20b1d5ddd": {
+          "type": "html",
+          "settings": {
+            "code": "<div class=\"history-brochure\">\n    <h2 class=\"history-title\">\"EVERY FAMILY HAS A SECRET AND THE SECRET, IS THAT IT'S NOT LIKE OTHER FAMILIES\"<\/h2>\n\n    <div class=\"100-steel-logo\">\n        <img class=\"steel-100\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/3151\/3071\/files\/100-YEAR-LOGO.png?v=1662597482\">\n      <\/div>\n\n     <p class=\"alan-bennett\"> (Alan Bennett) <\/p>\n\n<div class=\"rte mt-4 text-color-subtext lg:text-base sm:text-tiny\">\n      <p class=\"steel-history-text\">The story of Steel is a family story. It starts in 1922, when Angelo Po - a real industry pioneer - started his artisanal steel-working business with his first wood-fired cooking stoves, gradually achieving success with leading-edge models for restaurants. <br><br>\n\n      In 1999, the Po brothers and sisters decided to set up a new activity in the footsteps of their grandfather. Their inspired idea was to transfer the technology and the know-how acquired in the production of professional kitchens to the domestic market. Today, Steel does not only produce a wide range of steel cooking appliances with high-end functionalities: Steel designs ideas and realises solutions. The Steel of 2022 is the result of a hundred years of passion and experience in the industry, handed down from father to son for four generations.<\/p>\n<\/div>\n<\/div>",
+            "width": "66%",
+            "mobile_order": "",
+            "block_custom_class": ""
+          }
+        },
+        "1823eaf7-4cd9-4a24-9157-e31b18b5d94d": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/100-YEAR-LOGO.png",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "mobile_order": "",
+            "block_custom_class": ""
+          }
+        },
+        "1664236171e344bb43-0": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "BgColor": "#ffffff",
+            "text_padding_top": 15,
+            "text_padding_bottom": 0,
+            "title": "",
+            "subheading": "",
+            "text": "<p>The story of Steel is a family story. It starts in 1922, when Angelo Po - a real industry pioneer - started his artisanal steel-working business with his first wood-fired cooking stoves, gradually achieving success with leading-edge models for restaurants.<\/p><p>In 1999, the Po brothers and sisters decided to set up a new activity in the footsteps of their grandfather. Their inspired idea was to transfer the technology and the know-how acquired in the production of professional kitchens to the domestic market. Today, Steel does not only produce a wide range of steel cooking appliances with high-end functionalities: Steel designs ideas and realises solutions. The Steel of 2022 is the result of a hundred years of passion and experience in the industry, handed down from father to son for four generations.<\/p>",
+            "width": "100%",
+            "inner_width": 1200,
+            "alignment": "center",
+            "horizontal_alignment": "start",
+            "align_text": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-primary",
+            "button_color": "sf__btn-black",
+            "mobile_order": "",
+            "block_custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "1664236171e344bb43-1",
+        "5890bb78-610f-4f3f-bd81-a1f20b1d5ddd",
+        "1823eaf7-4cd9-4a24-9157-e31b18b5d94d",
+        "1664236171e344bb43-0"
+      ],
+      "settings": {
+        "heading": "STEEL - 100 YEARS OF PROUD HISTORY",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "#dcdedf",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "custom_class": ""
+      }
+    },
+    "166425260734fe0d65": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "1664252607e02b4be8-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Rich text"
+          }
+        },
+        "1664252607e02b4be8-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>The story of Steel is a family story. It starts in 1922, when Angelo Po - a real industry pioneer - started his artisanal steel-working business with his first wood-fired cooking stoves, gradually achieving success with leading-edge models for restaurants.<\/p><p>In 1999, the Po brothers and sisters decided to set up a new activity in the footsteps of their grandfather. Their inspired idea was to transfer the technology and the know-how acquired in the production of professional kitchens to the domestic market. Today, Steel does not only produce a wide range of steel cooking appliances with high-end functionalities: Steel designs ideas and realises solutions. The Steel of 2022 is the result of a hundred years of passion and experience in the industry, handed down from father to son for four generations.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1664252607e02b4be8-0",
+        "1664252607e02b4be8-1"
+      ],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": false,
+        "divider": false
+      }
+    },
     "1664160161f63e4a40": {
       "type": "text-and-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/AngeloPo_b5391b53-79ef-405f-9af3-415864643668.jpg",
         "image_width": 700,
@@ -22,14 +132,95 @@
         "divider": false
       }
     },
+    "16642526109719711c": {
+      "type": "custom-content",
+      "blocks": {
+        "750e9cc2-bdfc-4104-b1fb-500cd380409c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Home_Town_Carpi.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "mobile_order": "",
+            "block_custom_class": ""
+          }
+        },
+        "13ad7370-daa0-433a-9f5f-85b48238e80d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/033.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "mobile_order": "",
+            "block_custom_class": ""
+          }
+        },
+        "16642526102e7fb4e6-0": {
+          "type": "text",
+          "settings": {
+            "BgColor": "#dcdedf",
+            "text_padding_top": 40,
+            "text_padding_bottom": 40,
+            "title": "",
+            "subheading": "",
+            "text": "<p>Carpi is in the beautiful province of Moderna, Emilia-Romagna, Italy. It is a busy hive for the industrial and craft activities of the region, and for cultural and commercial exchanges. Boasting the 3rd largest piazza in Italy, called Piazza Martiri, largest in the region.<\/p><p>Carpi is also home of extensive textile manufacturing, specialising in high quality knitwear. Brands such as TwinSet & Champion, plus more than 1000 companies under the Carpi fashion system focusing on education of the next generation of Italian designers. Everything about this area is well dressed. Ferrari & Ducati are both local icons, so it is commonly known that this region is the design hub of Italy.<\/p><p>It only makes sense that STEEL was born in and has strived in this design mecca, using generations craftsmanship passed down to create the most beautiful cookers in today’s market.  <\/p><p> <\/p>",
+            "width": "66%",
+            "inner_width": 820,
+            "alignment": "center",
+            "horizontal_alignment": "center",
+            "align_text": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-primary",
+            "button_color": "sf__btn-black",
+            "mobile_order": "",
+            "block_custom_class": ""
+          }
+        },
+        "16642526102e7fb4e6-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/carpi.jpg",
+            "link": "",
+            "width": "33%",
+            "alignment": "center",
+            "mobile_order": "",
+            "block_custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "750e9cc2-bdfc-4104-b1fb-500cd380409c",
+        "13ad7370-daa0-433a-9f5f-85b48238e80d",
+        "16642526102e7fb4e6-0",
+        "16642526102e7fb4e6-1"
+      ],
+      "settings": {
+        "heading": "HOMETOWN CARPI",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "#dcdedf",
+        "gap": 40,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "custom_class": ""
+      }
+    },
     "166416018542c23259": {
       "type": "text-and-image",
+      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Home_Town_Carpi.jpg",
-        "image_width": 700,
+        "image": "shopify:\/\/shop_images\/carpi.jpg",
+        "image_width": 590,
         "subtitle": "",
-        "title": "HOMETOWN CARPI",
-        "text": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.<\/p>",
+        "title": "",
+        "text": "<p>Carpi is in the beautiful province of Moderna, Emilia-Romagna, Italy. It is a busy hive for the industrial and craft activities of the region, and for cultural and commercial exchanges. Boasting the 3rd largest piazza in Italy, called Piazza Martiri, largest in the region.<\/p><p>Carpi is also home of extensive textile manufacturing, specialising in high quality knitwear. Brands such as TwinSet & Champion, plus more than 1000 companies under the Carpi fashion system focusing on education of the next generation of Italian designers. Everything about this area is well dressed. Ferrari & Ducati are both local icons, so it is commonly known that this region is the design hub of Italy.<\/p><p>It only makes sense that STEEL was born in and has strived in this design mecca, using generations craftsmanship passed down to create the most beautiful cookers in today’s market.  <\/p><p> <\/p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
@@ -40,12 +231,13 @@
     },
     "16641602084602f2ab": {
       "type": "text-and-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/the_original_cooker.jpg",
-        "image_width": 700,
+        "image_width": 550,
         "subtitle": "",
         "title": "THE ORIGINAL COOKER",
-        "text": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.<\/p>",
+        "text": "<p>This is the first cooker made by Angelo Po. <\/p><p>At the time it was produced, back in 1922, having a range cooker in your home kitchen was a new luxury. It was more common that a cooker such as this was used in restaurant or guest house. The pride that Angelo took in his creation can be seen in the detail. He saw the opportunity not just to supply to the restaurant market, of which the Angelo Po brand became synonymous, but also for the select few home kitchens. It wasn’t till generations later in 2001, that Angelo’s heirs created the company STEEL to specifically design and create for the domestic market. This commercial heritage is reflected in the quality, the fitting and longevity of the STEEL range of cookers. <\/p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
@@ -53,12 +245,96 @@
         "layout": "right",
         "divider": false
       }
+    },
+    "1664252773bc8229ab": {
+      "type": "custom-content",
+      "blocks": {
+        "1664252772b08297a2-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/115.jpg",
+            "link": "",
+            "width": "33%",
+            "alignment": "center",
+            "mobile_order": "",
+            "block_custom_class": ""
+          }
+        },
+        "1664252772b08297a2-0": {
+          "type": "text",
+          "settings": {
+            "BgColor": "#dcdedf",
+            "text_padding_top": 40,
+            "text_padding_bottom": 40,
+            "title": "",
+            "subheading": "",
+            "text": "<p>This is the first cooker made by Angelo Po. <\/p><p>At the time it was produced, back in 1922, having a range cooker in your home kitchen was a new luxury. It was more common that a cooker such as this was used in restaurant or guest house. The pride that Angelo took in his creation can be seen in the detail. He saw the opportunity not just to supply to the restaurant market, of which the Angelo Po brand became synonymous, but also for the select few home kitchens. It wasn’t till generations later in 2001, that Angelo’s heirs created the company STEEL to specifically design and create for the domestic market. This commercial heritage is reflected in the quality, the fitting and longevity of the STEEL range of cookers. <\/p>",
+            "width": "66%",
+            "inner_width": 850,
+            "alignment": "center",
+            "horizontal_alignment": "center",
+            "align_text": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-primary",
+            "button_color": "sf__btn-black",
+            "mobile_order": "",
+            "block_custom_class": ""
+          }
+        },
+        "581c5c6e-f9f3-4d92-9178-aa60718e3dcc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/119.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center",
+            "mobile_order": "",
+            "block_custom_class": ""
+          }
+        },
+        "609ada74-ab29-4fac-bdfc-beb79768791a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/115.jpg",
+            "link": "",
+            "width": "33%",
+            "alignment": "end",
+            "mobile_order": "",
+            "block_custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "1664252772b08297a2-1",
+        "1664252772b08297a2-0",
+        "581c5c6e-f9f3-4d92-9178-aa60718e3dcc",
+        "609ada74-ab29-4fac-bdfc-beb79768791a"
+      ],
+      "settings": {
+        "heading": "THE ORIGINAL COOKER",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "#dcdedf",
+        "gap": 30,
+        "use_scroll_mobile": false,
+        "gap_mobile": 16,
+        "custom_class": ""
+      }
     }
   },
   "order": [
     "main",
+    "166423617123a69e8b",
+    "166425260734fe0d65",
     "1664160161f63e4a40",
+    "16642526109719711c",
     "166416018542c23259",
-    "16641602084602f2ab"
+    "16641602084602f2ab",
+    "1664252773bc8229ab"
   ]
 }

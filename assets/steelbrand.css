@@ -2095,3 +2095,54 @@ cucine  collection page
   font-size: 30px;
   text-align: center;
 }
+
+.feature-row .rte p {
+  text-align: justify;
+}
+
+/* for custom html section on history page */
+.history-brochure {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #dcdedf;
+  padding: 1.875rem 6.25rem;
+}
+
+#sf-custom__block--16642526102e7fb4e6-0 p,
+#sf-custom__block--1664252772b08297a2-0 p {
+  text-align: justify;
+}
+
+@media screen and (max-width: 480px) {
+  .history-brochure {
+    padding: 20px 30px;
+  }
+
+  .steel-history-text {
+    text-align: justify;
+  }
+}
+
+.history-title {
+  padding: 2rem 0 !important;
+}
+
+.alan-bennett {
+  padding-top: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+#sf-custom-template--16579624763631__166423617123a69e8b .section-header__title {
+  font-weight: bold;
+}
+
+#sf-custom-template--16579624763631__16642526109719711c .section-header__title {
+  font-weight: bold;
+}
+
+#sf-custom-template--16579624763631__1664252773bc8229ab .section-header__title {
+  font-weight: bold;
+}

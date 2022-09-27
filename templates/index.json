@@ -125,7 +125,7 @@
         "header_alignment": "center",
         "container": "w-full",
         "background_color": "",
-        "gap": 0,
+        "gap": 5,
         "use_scroll_mobile": false,
         "gap_mobile": 0,
         "custom_class": ""

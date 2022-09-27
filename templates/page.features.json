@@ -66,6 +66,22 @@
         "divider": false
       }
     },
+    "1664235814c3c8e07a": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/AdobeStock_306299408.jpg",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "37 Built in recipes",
+        "text": "<p>The Anniversary range of Genesi & Ascot feature an easy use TFT control panel, with full colour pictures of 37 built-in recipes such as Roast Chicken, Paper bag fish, Breads, Roast Veal, apple pie, pizza and even donuts! <\/p><p>STEEL will give you the inspiration, as well as the confidence, to show off your new cooker. No one has to know all the guess work was done for you.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
+        "divider": false
+      }
+    },
     "166296336604130617": {
       "type": "text-and-image",
       "settings": {
@@ -243,6 +259,7 @@
     "1662964257af12e8f0": {
       "type": "text-and-image",
       "settings": {
+        "image": "shopify:\/\/shop_images\/STEEL_6MM_SS_GRILL_ELEMENT_e079f369-b28c-44b0-9a69-7c019bba3357.jpg",
         "image_width": 700,
         "subtitle": "",
         "title": "Power Grill –Steel",
@@ -274,6 +291,7 @@
     "1662964288e6551c65": {
       "type": "text-and-image",
       "settings": {
+        "image": "shopify:\/\/shop_images\/STEEL_PROGRAMMING_CONTROL.jpg",
         "image_width": 700,
         "subtitle": "",
         "title": "Oven Timer Programming",
@@ -325,10 +343,10 @@
       "type": "text-and-image",
       "settings": {
         "image": "shopify:\/\/shop_images\/CAST_BBQ_PLATE_FOR_COOKER.jpg",
-        "image_width": 390,
+        "image_width": 400,
         "subtitle": "",
-        "title": "BBQ Plate",
-        "text": "",
+        "title": "BBQ Griddle Plate",
+        "text": "<p>To be used over both the high-efficiency burners or the seamless Induction hob, the BBQ griddle is for lovers of BBQ grilling. <\/p><p>Heavy duty and built for efficiency, the BBQ plate is great for everything from cutlets to ribeye. <\/p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
@@ -341,10 +359,10 @@
       "type": "text-and-image",
       "settings": {
         "image": "shopify:\/\/shop_images\/CAST_TEPP_ACCESSORY.jpg",
-        "image_width": 390,
+        "image_width": 400,
         "subtitle": "",
         "title": "Teppanyaki Plate",
-        "text": "",
+        "text": "<p>To be used over both the high-efficiency burners or the seamless Induction hob, the high Grade cast enamel flat plate for perfect<br\/>preparation of fish, prawns, vegetables, or a full Sunday breakfast for the whole family. <\/p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
@@ -391,6 +409,7 @@
     "166415868236154849",
     "16641590372d8b6369",
     "16636387553dc7349b",
+    "1664235814c3c8e07a",
     "166296336604130617",
     "1662963473e05dd687",
     "166296350955f6c655",
