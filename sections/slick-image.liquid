@@ -1,10 +1,11 @@
-<div class ="bbq-conf-container">
+
+<div class ="bbq-conf-container" id="bbq-choose-conf">
     <div class="page-width">
     <h2 class="text-center text-white" style="padding-top:20px;">Choose your configuration </h2>
     <div class="bbq-conf-size-btn">
-        <div class="btn btn--tertiary btn--tertiary-cucine" data-slide="0">SMALL</div>
-        <div class="btn btn--tertiary btn--tertiary-cucine" data-slide="1">MEDIUM</div>
-        <div class="btn btn--tertiary btn--tertiary-cucine" data-slide="2">LARGE</div>
+        <div class="btn btn--tertiary btn--tertiary-cucine" data-slide="0">SMALL 2500mm<br>$13,490</div>
+        <div class="btn btn--tertiary btn--tertiary-cucine" data-slide="1">MEDIUM 3080mm <br> $16,580</div>
+        <div class="btn btn--tertiary btn--tertiary-cucine" data-slide="2">LARGE 4180mm <br> $20,890</div>
     </div>
     <div class = "bbq-conf-img">
 
@@ -26,7 +27,7 @@
             </div>
         {% endif %}
         {% endfor %}
-            <img src="https://cdn.shopify.com/s/files/1/0647/3151/3071/files/small.png?v=1657842917">
+            <img src="https://cdn.shopify.com/s/files/1/0647/3151/3071/files/Steel_Alfresco-Cucina_Bambino-SAKCB01AN.jpg?v=1669346477">
         </div>
 
         <div class="bbq-conf-img-item">
@@ -48,7 +49,7 @@
                 </div>
             {% endif %}
             {% endfor %}
-            <img src="https://cdn.shopify.com/s/files/1/0647/3151/3071/files/medium.jpg?v=1657842917">
+            <img src="https://cdn.shopify.com/s/files/1/0647/3151/3071/files/Steel_Alfresco-Cucina_il_Mezzo-SAKCM01AN.jpg?v=1669346477">
         </div> 
         <div class="bbq-conf-img-item">
 
@@ -69,7 +70,7 @@
                 </div>
             {% endif %}
             {% endfor %}
-            <img src="https://cdn.shopify.com/s/files/1/0647/3151/3071/files/large.jpg?v=1657842917">
+            <img src="https://cdn.shopify.com/s/files/1/0647/3151/3071/files/Steel_Alfresco-Cucina_Immenso-SAKCI01AN.jpg?v=1669346476">
         </div> 
     </div>
 </div>
@@ -191,6 +192,9 @@
 
 
        {% style %}
+       html {
+  scroll-behavior: smooth;
+}
 
        .bbq-conf-container{
         background-color:#232323;
@@ -336,7 +340,6 @@
 
     $('div[data-slide]').click(function() {
         var slideno = $(this).data('slide');
-        console.log(slideno)
         $('.bbq-conf-img').slick('slickGoTo', slideno);
     });
         

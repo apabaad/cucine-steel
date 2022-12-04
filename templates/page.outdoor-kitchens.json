@@ -41,12 +41,13 @@
     "1658202677afa2d3c8": {
       "type": "cucine-collection-callout",
       "settings": {
-        "collection-title": "PREPARING",
-        "selected-collection": "preparing"
+        "collection-title": "",
+        "selected-collection": "outdoor-kitchen"
       }
     },
     "1658202712e78d3a3b": {
       "type": "cucine-collection-callout",
+      "disabled": true,
       "settings": {
         "collection-title": "COOKING",
         "selected-collection": "cooking"
@@ -54,6 +55,7 @@
     },
     "1658202707b194bb63": {
       "type": "cucine-collection-callout",
+      "disabled": true,
       "settings": {
         "collection-title": "WASHING",
         "selected-collection": "washing"

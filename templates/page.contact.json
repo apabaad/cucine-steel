@@ -34,55 +34,6 @@
         "divider": false
       }
     },
-    "form": {
-      "type": "contact-form",
-      "blocks": {
-        "8b3c26b0-3382-4068-81dd-9164f4506bd6": {
-          "type": "select",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/westinghouse_support_warrantyinfo_640x640_desktop.jpg",
-            "iconimg": "shopify:\/\/shop_images\/location.png",
-            "heading": "Address:",
-            "content": "40-50 Mark Anthony Drive, Dandenong South VIC 3175",
-            "timingcontent": "",
-            "call": ""
-          }
-        },
-        "74fbd876-0474-42d4-a0b6-4f82881bd037": {
-          "type": "select",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/westinghouse_support_productvideos_640x640_desktop.jpg",
-            "iconimg": "shopify:\/\/shop_images\/call.png",
-            "heading": "Phone:",
-            "content": "1300 762 219",
-            "timingcontent": "",
-            "call": ""
-          }
-        },
-        "8f2164df-6a89-4732-ad73-29aabc1101e3": {
-          "type": "select",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/westinghouse_support_brochureandrecipes_640x640_desktop_1.jpg",
-            "iconimg": "shopify:\/\/shop_images\/email.png",
-            "heading": "Email:",
-            "content": "General Enquiry :<br> arisit.digital@arisit.com",
-            "timingcontent": "Spare Parts Enquiry : <br>arisit.parts@arisit.com",
-            "call": ""
-          }
-        }
-      },
-      "block_order": [
-        "8b3c26b0-3382-4068-81dd-9164f4506bd6",
-        "74fbd876-0474-42d4-a0b6-4f82881bd037",
-        "8f2164df-6a89-4732-ad73-29aabc1101e3"
-      ],
-      "settings": {
-        "title": "Contact Us",
-        "text": "<p>If you need any assistance on our products or services or have a question you would like to ask, simply contact us.<\/p>",
-        "show_phone": false,
-        "narrow_column": true
-      }
-    },
     "16548615836bbec494": {
       "type": "icon-box",
       "blocks": {
@@ -139,8 +90,61 @@
         "use_grid_column_mb": false
       }
     },
+    "form": {
+      "type": "contact-form",
+      "blocks": {
+        "8b3c26b0-3382-4068-81dd-9164f4506bd6": {
+          "type": "select",
+          "disabled": true,
+          "settings": {
+            "img": "shopify:\/\/shop_images\/westinghouse_support_warrantyinfo_640x640_desktop.jpg",
+            "iconimg": "shopify:\/\/shop_images\/location.png",
+            "heading": "Address:",
+            "content": "40-50 Mark Anthony Drive, Dandenong South VIC 3175",
+            "timingcontent": "",
+            "call": ""
+          }
+        },
+        "74fbd876-0474-42d4-a0b6-4f82881bd037": {
+          "type": "select",
+          "disabled": true,
+          "settings": {
+            "img": "shopify:\/\/shop_images\/westinghouse_support_productvideos_640x640_desktop.jpg",
+            "iconimg": "shopify:\/\/shop_images\/call.png",
+            "heading": "Phone:",
+            "content": "1300 762 219",
+            "timingcontent": "",
+            "call": ""
+          }
+        },
+        "8f2164df-6a89-4732-ad73-29aabc1101e3": {
+          "type": "select",
+          "disabled": true,
+          "settings": {
+            "img": "shopify:\/\/shop_images\/westinghouse_support_brochureandrecipes_640x640_desktop_1.jpg",
+            "iconimg": "shopify:\/\/shop_images\/email.png",
+            "heading": "Email:",
+            "content": "General Enquiry :<br> arisit.digital@arisit.com",
+            "timingcontent": "Spare Parts Enquiry : <br>arisit.parts@arisit.com",
+            "call": ""
+          }
+        }
+      },
+      "block_order": [
+        "8b3c26b0-3382-4068-81dd-9164f4506bd6",
+        "74fbd876-0474-42d4-a0b6-4f82881bd037",
+        "8f2164df-6a89-4732-ad73-29aabc1101e3"
+      ],
+      "settings": {
+        "title": "Contact Us",
+        "text": "<p>If you need any assistance on our products or services or have a question you would like to ask, simply contact us.<\/p>",
+        "show_phone": false,
+        "narrow_column": false
+      }
+    },
     "1654862253c3406032": {
       "type": "map",
+      "disabled": true,
       "settings": {
         "map_title": "Use your store map",
         "address": "<p>301 Front St W<br\/>Toronto, Canada<\/p><p>Mon - Fri, 8:30am - 10:30pm<br\/>Saturday, 8:30am - 10:30pm<br\/>Sunday, 8:30am - 10:30pm<\/p>",
@@ -155,8 +159,8 @@
   "order": [
     "main",
     "rich-text",
-    "form",
     "16548615836bbec494",
+    "form",
     "1654862253c3406032"
   ]
 }

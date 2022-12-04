@@ -8,7 +8,15 @@
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Popular picks"
+        "title": "Ascot Range",
+        "description": "<p>Explore our Ascot Range<\/p>",
+        "home_featured_products": "ascot",
+        "per_row": 4,
+        "rows": 1,
+        "view_all": false,
+        "divider": false,
+        "enable_add_to_cart": false,
+        "enable_price": false
       }
     }
   },

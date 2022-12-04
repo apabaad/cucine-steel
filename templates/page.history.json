@@ -325,6 +325,41 @@
         "gap_mobile": 16,
         "custom_class": ""
       }
+    },
+    "c3b216eb-3fb5-40f1-8a5d-608a1c2004f4": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16579624763631__c3b216eb-3fb5-40f1-8a5d-608a1c2004f4-1665115112f039f0d7-0": {
+          "type": "heading",
+          "settings": {
+            "title": "The story of Steel is a family story"
+          }
+        },
+        "template--16579624763631__c3b216eb-3fb5-40f1-8a5d-608a1c2004f4-1665115112f039f0d7-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>A brief documentary of our 100-year history that has its roots in 1922.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16579624763631__c3b216eb-3fb5-40f1-8a5d-608a1c2004f4-1665115112f039f0d7-0",
+        "template--16579624763631__c3b216eb-3fb5-40f1-8a5d-608a1c2004f4-1665115112f039f0d7-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": false,
+        "divider": false
+      }
+    },
+    "4de80e2c-2f89-4b82-97ba-f313ef62883c": {
+      "type": "featured-video",
+      "settings": {
+        "title": "",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=xK0pPUCyMD8",
+        "divider": false
+      }
     }
   },
   "order": [
@@ -335,6 +370,8 @@
     "16642526109719711c",
     "166416018542c23259",
     "16641602084602f2ab",
-    "1664252773bc8229ab"
+    "1664252773bc8229ab",
+    "c3b216eb-3fb5-40f1-8a5d-608a1c2004f4",
+    "4de80e2c-2f89-4b82-97ba-f313ef62883c"
   ]
 }

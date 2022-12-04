@@ -9,6 +9,24 @@
     "1654837648af55b8ec": {
       "type": "image-with-text-1",
       "blocks": {
+        "165483764804be05b1-1": {
+          "type": "item",
+          "settings": {
+            "enable_background": false,
+            "content_bg": "",
+            "content_position": "bottom_center",
+            "content_alignment": "left",
+            "text_size": "medium",
+            "text_color": "black",
+            "image": "shopify:\/\/shop_images\/ENFASI_oven_and_rangehood_promo-WEB-DEC_2022.jpg",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/3151\/3071\/files\/ENFASI-oven-and-rangehood-promo-WEB-DEC-MAR-2022-574x574_360x.jpg?v=1654666599",
+            "title": "",
+            "subtitle": "",
+            "button_label": "",
+            "button_style": "sf__btn-primary",
+            "button_size": ""
+          }
+        },
         "165483764804be05b1-0": {
           "type": "item",
           "settings": {
@@ -23,24 +41,6 @@
             "title": "",
             "subtitle": "",
             "button_label": "Shop now",
-            "button_style": "sf__btn-primary",
-            "button_size": ""
-          }
-        },
-        "165483764804be05b1-1": {
-          "type": "item",
-          "settings": {
-            "enable_background": false,
-            "content_bg": "",
-            "content_position": "bottom_center",
-            "content_alignment": "left",
-            "text_size": "medium",
-            "text_color": "black",
-            "image": "shopify:\/\/shop_images\/ENFASI-oven-and-rangehood-promo-WEB-DEC-MAR-2022-574x574.jpg",
-            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/3151\/3071\/files\/ENFASI-oven-and-rangehood-promo-WEB-DEC-MAR-2022-574x574_360x.jpg?v=1654666599",
-            "title": "",
-            "subtitle": "",
-            "button_label": "",
             "button_style": "sf__btn-primary",
             "button_size": ""
           }
@@ -65,8 +65,8 @@
         }
       },
       "block_order": [
-        "165483764804be05b1-0",
         "165483764804be05b1-1",
+        "165483764804be05b1-0",
         "165483764804be05b1-2"
       ],
       "settings": {
