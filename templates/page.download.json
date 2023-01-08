@@ -11,6 +11,7 @@
       "blocks": {
         "1ce45892-469e-4850-b2fc-c8b707b2820d": {
           "type": "rich-text",
+          "disabled": true,
           "settings": {
             "title": "ASCOT UPRIGHT COOKERS",
             "align_text": "left"
@@ -18,6 +19,7 @@
         },
         "fc699f5e-8f24-4d8d-b401-e8fe90ad5c7e": {
           "type": "download",
+          "disabled": true,
           "settings": {
             "title": "Ascot 120cm Combi-Steam Enamel Upright Cooker with 1 Wok & 1 Teppanyaki Grill Plate - A12SEF-6T OT",
             "download_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/3151\/3071\/files\/A12SEF-6T-OT_4349f410-0845-4192-8e84-86496857d3b9.pdf?v=1654662262"
@@ -25,6 +27,7 @@
         },
         "d21adb0b-1322-4f7c-ac8e-d24b71c63dac": {
           "type": "download",
+          "disabled": true,
           "settings": {
             "title": "Ascot 120cm Combi-Steam Upright Cooker with 1 Mega-Wok burner - A12SEF-6M OT",
             "download_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/3151\/3071\/files\/A12SEF-6M-OT_b0627144-b25d-4cec-a5dd-ab9b0d7e5b78.pdf?v=1654662360"
@@ -32,6 +35,7 @@
         },
         "69f6fff0-cb5f-4a9b-92aa-1939e7ebc8e2": {
           "type": "download",
+          "disabled": true,
           "settings": {
             "title": "Ascot 100cm Combi Steam Upright Cooker with 2 Wok - A10SEF-6W OT",
             "download_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/3151\/3071\/files\/A10SEF-6W-OT_c8c22f8d-fb55-45bc-8ce5-1b816cc3605a.pdf?v=1654662423"
@@ -39,6 +43,7 @@
         },
         "548b3ef2-2ae3-4ba4-a26b-2763335df555": {
           "type": "download",
+          "disabled": true,
           "settings": {
             "title": "Ascot 90cm Combi-Steam Upright Cooker with 2 Wok - A9SE-6W OT",
             "download_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/3151\/3071\/files\/A9SE-6W-OT-1_4851d082-ae65-46e9-91ae-f2caff552a49.pdf?v=1654662475"
@@ -46,6 +51,7 @@
         },
         "62ec5851-f2ed-4838-9b35-2e6250ff7b21": {
           "type": "download",
+          "disabled": true,
           "settings": {
             "title": "Ascot 90cm Combi-Steam Upright Cooker with 5 Induction Zones - A9SE-5FI",
             "download_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/3151\/3071\/files\/A9SE-5FI_bf6ae5c2-728c-48ab-87fc-1a153dcd8e3d.pdf?v=1654662537"
@@ -53,6 +59,7 @@
         },
         "603fd3c4-b93b-4d20-8f50-fa68e211ed9f": {
           "type": "download",
+          "disabled": true,
           "settings": {
             "title": "Ascot 100cm Combi-Steam Upright Cooker With 5 Induction zones - A10SEF-5FI",
             "download_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0647\/3151\/3071\/files\/A10SEF-5FI_4efabd2d-cab5-436f-ac9b-7e2ca94b95f7.pdf?v=1654662601"

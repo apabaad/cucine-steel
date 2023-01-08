@@ -1,4 +1,4 @@
-{%- assign featured_media = product.selected_or_first_available_variant.featured_media | default: product.featured_media -%}
+{%- assign featured_media = product.selected_or_first_available_variant.featured_media | default: product.images[1] -%}
 
 {%- unless product.empty? -%}
   <div

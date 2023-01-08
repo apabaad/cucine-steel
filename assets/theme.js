@@ -1057,7 +1057,8 @@ lazySizesConfig.expFactor = 2.2;
         this._updatePrice(variant);
         this._updateUnitPrice(variant);
         this._updateSKU(variant);
-        this.currentVariant = variant;
+        // this._updateManuals(variant);
+        this._currentVariant(variant);
 
         if (this.enableHistoryState) {
           this._updateHistoryState(variant);
@@ -1084,6 +1085,13 @@ lazySizesConfig.expFactor = 2.2;
           })
         );
       },
+
+      // render spec sheet dynamically from metafield
+
+      // _updateManuals: function (variant) {
+      //   var variantManual = variant.metafields.custom.spec_sheet;
+
+      // }
 
       _updatePrice: function (variant) {
         if (
@@ -8743,9 +8751,8 @@ lazySizesConfig.expFactor = 2.2;
   });
 })();
 
-
 var links = document.links;
-for (let i = 0, linksLength = links.length ; i < linksLength ; i++) {
+for (let i = 0, linksLength = links.length; i < linksLength; i++) {
   if (links[i].hostname !== window.location.hostname) {
     links[i].target = '_blank';
     links[i].rel = 'noreferrer noopener';

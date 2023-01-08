@@ -252,6 +252,28 @@
     </div>
   </div>
 
+            {% elsif  value == "4M"%}
+
+     <div class="cooktop-4m flex" id="cooktop-4m">
+              <label 
+              
+              style = "background-image:url(
+                {{ product.metafields.custom.cooktop_4m | img_url:"master" }}
+              )"
+              title = "{{ value | escape }}" 
+              for="ProductSelect-{{ section_id }}-{{ product.id }}-option-{{ option.name | handleize }}-{{ value | url_encode }}" 
+              class="label-bg-img--cooktop"
+              {% unless product_available %} class="disabled"{% endunless %}
+              onclick="Cooktop4MBackground()"
+            >
+              
+            </label>
+            <div class="cooktop-description">
+              <strong> {{ value | escape }}</strong><br/>
+            <span> {{ product.metafields.custom.description_4m }} </span>
+            </div>
+          </div>
+
         {%- endif -%}
       </div>
         {%- endif -%}
@@ -337,6 +359,8 @@
 var Cooktop5FIBackground = () => {
   document.getElementById("cooktop-5fi").classList.add('cooktop-focusable');
   document.getElementById("cooktop-6w").classList.remove('cooktop-focusable');
+  document.getElementById("cooktop-4m").classList.remove('cooktop-focusable');
+  
 }
 
 var Cooktop6WBackground = () => {
@@ -355,6 +379,10 @@ var Cooktop6TBackground = () => {
 
 }
 
+var Cooktop4MBackground = () => {
+   document.getElementById("cooktop-4m").classList.add('cooktop-focusable');
+  document.getElementById("cooktop-5fi").classList.remove('cooktop-focusable');
+}
 
 
 </script>
