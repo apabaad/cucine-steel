@@ -145,8 +145,14 @@
         "product_video_style": "muted"
       }
     },
+    "127dcdc6-dbca-4426-a5ae-2b459f142c32": {
+      "type": "dynamic-manual-buttons",
+      "settings": {
+      }
+    },
     "165715069135e58c2b": {
       "type": "manual-buttons",
+      "disabled": true,
       "blocks": {
         "21135404-5238-4796-993c-a194918f70bc": {
           "type": "first-section",
@@ -279,6 +285,7 @@
     "16631335663fa49a40",
     "1657159600dfe37b15",
     "main",
+    "127dcdc6-dbca-4426-a5ae-2b459f142c32",
     "165715069135e58c2b",
     "sub",
     "1655372404eeb81c88",

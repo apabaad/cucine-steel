@@ -5,7 +5,7 @@
     {% if product.selected_or_first_available_variant.id == variant.id %}
         
         {% if variant.metafields.custom.spec_sheet != blank %}
-            <a href="a" id="specVariant" target="_blank" class=" manual-buttons inline-flex items-center">
+            <a href="{{ variant.metafields.custom.spec_sheet | file_url }}" id="specVariant" target="_blank" class=" manual-buttons inline-flex items-center">
             {% render 'icon', name: 'printer', size: 'custom', class: 'w-[20px] h-[20px] mr-[10px]' %}
             Specification Sheet</a>
         {% endif %}
@@ -18,15 +18,28 @@
           {% render 'icon', name: 'pdf', size: 'custom', class: 'w-[20px] h-[20px] mr-[10px]' %}
           User Manual</a>
       {% endif %}
+
+      {% if product.metafields.custom.cad_drawing != blank %}
+        <a href="{{product.metafields.custom.cad_drawing | file_url  }}" target="_blank" class=" manual-buttons inline-flex items-center">
+          {% render 'icon', name: 'printer', size: 'custom', class: 'w-[20px] h-[20px] mr-[10px]' %}
+         CAD Drawing</a>
+      {% endif %}
+      
     </div> 
     </section>
     
-    <script>
-        document.addEventListener('variant:change', function () {
-            $("#specVariant").attr("href", "{% for variant in product.variants %} {% if product.selected_or_first_available_variant.id == variant.id %} {{ variant.metafields.custom.spec_sheet | file_url }} {% endif %}{% endfor %}");
-          });
+    
+      <script>
+        var variantSpecs = {};
+        {% for variant in product.variants %}
+          variantSpecs[{{ variant.id }}] = "{{ variant.metafields.custom.spec_sheet | file_url }}";
+        {% endfor %}
+        document.addEventListener('variant:change', function (evt) {
+          $("#specVariant").attr("href", variantSpecs[evt.detail.variant.id]);
+        });
+      </script>
           
-    </script>
+  
       
              {% schema %} 
                 {

@@ -10,6 +10,11 @@
       {% render 'icon', name: 'pdf', size: 'custom', class: 'w-[20px] h-[20px] mr-[10px]' %}
       User Manual</a>
   {% endif %}
+  {% if product.metafields.custom.cad_drawing != blank %}
+    <a href="{{product.metafields.custom.cad_drawing | file_url  }}" target="_blank" class=" manual-buttons inline-flex items-center">
+      {% render 'icon', name: 'printer', size: 'custom', class: 'w-[20px] h-[20px] mr-[10px]' %}
+     CAD Drawing</a>
+  {% endif %}
 </div> 
 </section>
 
